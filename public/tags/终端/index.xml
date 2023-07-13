@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>终端 on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/%E7%BB%88%E7%AB%AF/</link>
+    <link>https://swimminghao1.github.io/tags/%E7%BB%88%E7%AB%AF/</link>
     <description>Recent content in 终端 on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Jun 2022 23:45:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/%E7%BB%88%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jun 2022 23:45:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/%E7%BB%88%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WSL2 中访问宿主机 Windows 的代理</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/wsl2-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%BA-windows-%E7%9A%84%E4%BB%A3%E7%90%86/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/wsl2-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%BA-windows-%E7%9A%84%E4%BB%A3%E7%90%86/</link>
       <pubDate>Thu, 23 Jun 2022 23:45:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/wsl2-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%BA-windows-%E7%9A%84%E4%BB%A3%E7%90%86/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/wsl2-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%BA-windows-%E7%9A%84%E4%BB%A3%E7%90%86/</guid>
       <description>WSL2 中访问宿主机 Windows 的代理 最近疫情期间很多事情都得用代理连到学校内网去做，但是 WSL2 因为是通过虚拟机的方式实现，网络不再像 WSL1 一样与 Windows 共享，变成了一个</description>
     </item>
     
     <item>
       <title>linux 中为 cp 和 mv 命令添加进度条</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/linux-%E4%B8%AD%E4%B8%BA-cp-%E5%92%8C-mv-%E5%91%BD%E4%BB%A4%E6%B7%BB%E5%8A%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/linux-%E4%B8%AD%E4%B8%BA-cp-%E5%92%8C-mv-%E5%91%BD%E4%BB%A4%E6%B7%BB%E5%8A%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1/</link>
       <pubDate>Thu, 23 Jun 2022 23:31:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/linux-%E4%B8%AD%E4%B8%BA-cp-%E5%92%8C-mv-%E5%91%BD%E4%BB%A4%E6%B7%BB%E5%8A%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/linux-%E4%B8%AD%E4%B8%BA-cp-%E5%92%8C-mv-%E5%91%BD%E4%BB%A4%E6%B7%BB%E5%8A%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1/</guid>
       <description>linux 中为 cp 和 mv 命令添加进度条 GNU cp 和 GNU mv 工具用于复制和移动文件和目录在GNU / Linux的操作系统。这两个应用程序中缺少的一个功能是它们不显示任</description>
     </item>
     
     <item>
       <title>zsh必备插件</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E9%85%8D%E7%BD%AE/zsh%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E9%85%8D%E7%BD%AE/zsh%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/</link>
       <pubDate>Fri, 10 Jun 2022 23:01:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E9%85%8D%E7%BD%AE/zsh%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E9%85%8D%E7%BD%AE/zsh%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/</guid>
       <description>zsh必备插件 首先是 oh-my-zsh 自带的 alias 插件，这些东西能让你在终端少打很多字： 1. git 定义了有关 git 的 alias。常用的有 gaa = git add &amp;ndash;all gcmsg = git commit -m ga = git add gst = git</description>
     </item>
     
     <item>
       <title>glance内存分析工具使用</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/glance%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/glance%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Thu, 21 Apr 2022 11:29:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/glance%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/glance%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</guid>
       <description>glance内存分析工具使用 glances 是一款用于 Linux、BSD 的开源命令行系统监视工具，它使用 Python 语言开发，能够监视 CPU、负载、内存、磁盘 I/O</description>
     </item>
     

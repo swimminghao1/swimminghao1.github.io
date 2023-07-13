@@ -2,156 +2,156 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>算法 on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/%E7%AE%97%E6%B3%95/</link>
+    <link>https://swimminghao1.github.io/tags/%E7%AE%97%E6%B3%95/</link>
     <description>Recent content in 算法 on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>动态规划答疑篇</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%AD%94%E7%96%91%E7%AF%87/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%AD%94%E7%96%91%E7%AF%87/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%AD%94%E7%96%91%E7%AF%87/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%AD%94%E7%96%91%E7%AF%87/</guid>
       <description>动态规划答疑篇 预计阅读时间：7 分钟 这篇文章就给你讲明白两个读者问得最多的问题： 1、到底什么才叫「最优子结构」，和动态规划什么关系。 2、为什么</description>
     </item>
     
     <item>
       <title>动态规划设计之最长递增子序列</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>动态规划设计之最长递增子序列 预计阅读时间： 9 分钟 很多读者反应，就算看了前文 动态规划详解，了解了动态规划的套路，也不会写状态转移方程，没有思路</description>
     </item>
     
     <item>
       <title>滑动窗口</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
       <description>滑动窗口算法 滑动窗口算法 滑动窗口框架套路详解 在滑动窗口算法框架中，我编写一首小诗来歌颂滑动窗口算法的伟大： 关于双指针的快慢指针和左右指针</description>
     </item>
     
     <item>
       <title>回溯算法和动态规划，到底谁是谁爹</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%88%B0%E5%BA%95%E8%B0%81%E6%98%AF%E8%B0%81%E7%88%B9/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%88%B0%E5%BA%95%E8%B0%81%E6%98%AF%E8%B0%81%E7%88%B9/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%88%B0%E5%BA%95%E8%B0%81%E6%98%AF%E8%B0%81%E7%88%B9/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%92%8C%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%88%B0%E5%BA%95%E8%B0%81%E6%98%AF%E8%B0%81%E7%88%B9/</guid>
       <description>回溯算法和动态规划，到底谁是谁爹？ 我们前文经常说回溯算法和递归算法有点类似，有的问题如果实在想不出状态转移方程，尝试用回溯算法暴力解决也是一</description>
     </item>
     
     <item>
       <title>回溯算法团灭排列组合子集问题</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%9B%A2%E7%81%AD%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88%E5%AD%90%E9%9B%86%E9%97%AE%E9%A2%98/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%9B%A2%E7%81%AD%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88%E5%AD%90%E9%9B%86%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%9B%A2%E7%81%AD%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88%E5%AD%90%E9%9B%86%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E5%9B%A2%E7%81%AD%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88%E5%AD%90%E9%9B%86%E9%97%AE%E9%A2%98/</guid>
       <description>回溯算法团灭排列/组合/子集问题 回溯算法团灭排列/组合/子集问题 预计阅读时间：7 分钟 今天就来聊三道考察频率高，而且容易让人搞混的算法问题，分</description>
     </item>
     
     <item>
       <title>经典动态规划：0-1 背包问题</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%920-1-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%920-1-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%920-1-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%920-1-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
       <description>经典动态规划：0-1 背包问题 后台天天有人问背包问题，这个问题其实不难啊，如果我们号动态规划系列的十几篇文章你都看过，借助框架，遇到背包问题可</description>
     </item>
     
     <item>
       <title>经典动态规划：戳气球问题</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%88%B3%E6%B0%94%E7%90%83%E9%97%AE%E9%A2%98/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%88%B3%E6%B0%94%E7%90%83%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%88%B3%E6%B0%94%E7%90%83%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%88%B3%E6%B0%94%E7%90%83%E9%97%AE%E9%A2%98/</guid>
       <description>经典动态规划：戳气球问题 今天我们要聊的这道题「Burst Balloon」和之前我们写过的那篇 经典动态规划：高楼扔鸡蛋问题 分析过的高楼扔鸡蛋问</description>
     </item>
     
     <item>
       <title>经典动态规划：高楼扔鸡蛋</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B/</guid>
       <description>经典动态规划：高楼扔鸡蛋 手把手刷动态规划 25个 预计阅读时间：7 分钟 今天要聊一个很经典的算法问题，若干层楼，若干个鸡蛋，让你算出最少的尝试次数</description>
     </item>
     
     <item>
       <title>经典动态规划：高楼扔鸡蛋（进阶篇）</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B%E8%BF%9B%E9%98%B6%E7%AF%87/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B%E8%BF%9B%E9%98%B6%E7%AF%87/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B%E8%BF%9B%E9%98%B6%E7%AF%87/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B%E8%BF%9B%E9%98%B6%E7%AF%87/</guid>
       <description>经典动态规划：高楼扔鸡蛋（进阶篇） 手把手刷动态规划 25个 预计阅读时间：9 分钟 我们在 上篇文章 聊了高楼扔鸡蛋问题，讲了一种效率不是很高，但是较为</description>
     </item>
     
     <item>
       <title>经典面试题：如何寻找最⻓回文子串</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E9%9D%A2%E8%AF%95%E9%A2%98%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E6%9C%80%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E9%9D%A2%E8%AF%95%E9%A2%98%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E6%9C%80%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E9%9D%A2%E8%AF%95%E9%A2%98%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E6%9C%80%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%BB%8F%E5%85%B8%E9%9D%A2%E8%AF%95%E9%A2%98%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E6%9C%80%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/</guid>
       <description>经典面试题：如何寻找最⻓回文子串 预计阅读时间：5 分钟 回文串是面试常常遇到的问题（虽然问题本身没啥意义），本文就告诉你回文串问题的核心思想是什</description>
     </item>
     
     <item>
       <title>快慢指针的一些证明</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%81%E6%98%8E/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%81%E6%98%8E/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%81%E6%98%8E/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%81%E6%98%8E/</guid>
       <description>快慢指针在链表中的一些证明 目录 一、一定会相遇的证明 二、环长度 三、连接点 四、带环链表总长度 五、例题 一、一定会相遇的证明 证明1 1、如果链表没有环</description>
     </item>
     
     <item>
       <title>如何拆解复杂问题：实现一个计算器</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%A6%82%E4%BD%95%E6%8B%86%E8%A7%A3%E5%A4%8D%E6%9D%82%E9%97%AE%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%AE%A1%E7%AE%97%E5%99%A8/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%A6%82%E4%BD%95%E6%8B%86%E8%A7%A3%E5%A4%8D%E6%9D%82%E9%97%AE%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%AE%A1%E7%AE%97%E5%99%A8/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%A6%82%E4%BD%95%E6%8B%86%E8%A7%A3%E5%A4%8D%E6%9D%82%E9%97%AE%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%AE%A1%E7%AE%97%E5%99%A8/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%A6%82%E4%BD%95%E6%8B%86%E8%A7%A3%E5%A4%8D%E6%9D%82%E9%97%AE%E9%A2%98%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E8%AE%A1%E7%AE%97%E5%99%A8/</guid>
       <description>如何拆解复杂问题：实现一个计算器 我记得很多大学数据结构的教材上，在讲栈这种数据结构的时候，应该都会用计算器举例，但是有一说一，讲的真的垃圾，</description>
     </item>
     
     <item>
       <title>完全二叉树的节点数，你真的会算吗？</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E6%95%B0%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%AE%97%E5%90%97/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E6%95%B0%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%AE%97%E5%90%97/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E6%95%B0%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%AE%97%E5%90%97/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E6%95%B0%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%AE%97%E5%90%97/</guid>
       <description>完全二叉树的节点数，你真的会算吗？ 如果让你数一下一棵普通二叉树有多少个节点，这很简单，只要在二叉树的遍历框架上加一点代码就行了。 但是，如果给</description>
     </item>
     
     <item>
       <title>一个函数秒杀 2Sum 3Sum 4Sum 问题</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E7%A7%92%E6%9D%80-2sum-3sum-4sum-%E9%97%AE%E9%A2%98/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E7%A7%92%E6%9D%80-2sum-3sum-4sum-%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E7%A7%92%E6%9D%80-2sum-3sum-4sum-%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E7%A7%92%E6%9D%80-2sum-3sum-4sum-%E9%97%AE%E9%A2%98/</guid>
       <description>一个函数秒杀 2Sum 3Sum 4Sum 问题 经常刷 LeetCode 的读者肯定知道鼎鼎有名的 twoSum 问题，我们的旧文 Two Sum 问题的核心思想 对 twoSum 的几个变种做了解析。 但是除了 twoSum 问题，LeetC</description>
     </item>
     
     <item>
       <title>益智游戏克星：BFS暴力搜索算法</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F%E5%85%8B%E6%98%9Fbfs%E6%9A%B4%E5%8A%9B%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F%E5%85%8B%E6%98%9Fbfs%E6%9A%B4%E5%8A%9B%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F%E5%85%8B%E6%98%9Fbfs%E6%9A%B4%E5%8A%9B%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F%E5%85%8B%E6%98%9Fbfs%E6%9A%B4%E5%8A%9B%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95/</guid>
       <description>益智游戏克星：BFS暴力搜索算法 益智游戏克星：BFS暴力搜索算法 滑动拼图游戏大家应该都玩过，下图是一个 4x4 的滑动拼图： 拼图中有一个格子是空的，</description>
     </item>
     
     <item>
       <title>子序列解题模板：最长回文子序列</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AD%90%E5%BA%8F%E5%88%97%E8%A7%A3%E9%A2%98%E6%A8%A1%E6%9D%BF%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AD%90%E5%BA%8F%E5%88%97%E8%A7%A3%E9%A2%98%E6%A8%A1%E6%9D%BF%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AD%90%E5%BA%8F%E5%88%97%E8%A7%A3%E9%A2%98%E6%A8%A1%E6%9D%BF%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AD%90%E5%BA%8F%E5%88%97%E8%A7%A3%E9%A2%98%E6%A8%A1%E6%9D%BF%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>子序列解题模板：最长回文子序列 预计阅读时间：6 分钟 子序列问题是常见的算法问题，而且并不好解决。 首先，子序列问题本身就相对子串、子数组更困难一</description>
     </item>
     

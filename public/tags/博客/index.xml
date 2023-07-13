@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客 on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <link>https://swimminghao1.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
     <description>Recent content in 博客 on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 24 Jun 2022 01:10:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jun 2022 01:10:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hexo-start</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-start/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-start/</link>
       <pubDate>Fri, 24 Jun 2022 01:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-start/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-start/</guid>
       <description>摘要内容&amp;hellip;&amp;hellip; 以下为隐藏内容 hexo-start Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start Create a new post</description>
     </item>
     
     <item>
       <title>Hexo博客进阶：为 Next 主题添加 Waline 评论系统</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%E4%B8%BA-next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0-waline-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%E4%B8%BA-next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0-waline-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Wed, 02 Mar 2022 15:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%E4%B8%BA-next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0-waline-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%E4%B8%BA-next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0-waline-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
       <description>Hexo博客进阶：为 Next 主题添加 Waline 评论系统 发表于 2022-01-20 分类于 Hexo博客 阅读次数： 44 Waline： 本文字数： 2.2k 阅读时长 ≈ 4 分钟 文章发出之后，往往我</description>
     </item>
     
     <item>
       <title>Hexo-Next 主题博客个性化配置(2022年更新版本)</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-next-%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE2022%E5%B9%B4%E6%9B%B4%E8%A1%8C%E7%89%88%E6%9C%AC/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-next-%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE2022%E5%B9%B4%E6%9B%B4%E8%A1%8C%E7%89%88%E6%9C%AC/</link>
       <pubDate>Tue, 01 Mar 2022 09:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-next-%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE2022%E5%B9%B4%E6%9B%B4%E8%A1%8C%E7%89%88%E6%9C%AC/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo-next-%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE2022%E5%B9%B4%E6%9B%B4%E8%A1%8C%E7%89%88%E6%9C%AC/</guid>
       <description>Hexo-Next 主题博客个性化配置(2022年更行版本) 网页预览： swimminghao.netlify.app 因为本人比较喜欢简介风格的，所以整个界面都是简约风格的，一个好的博客，应该让人一眼就能</description>
     </item>
     
     <item>
       <title>使用 Docker 部署 Halo 和 MySQL</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%BD%BF%E7%94%A8-docker-%E9%83%A8%E7%BD%B2-halo-%E5%92%8C-mysql/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%BD%BF%E7%94%A8-docker-%E9%83%A8%E7%BD%B2-halo-%E5%92%8C-mysql/</link>
       <pubDate>Tue, 01 Mar 2022 09:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%BD%BF%E7%94%A8-docker-%E9%83%A8%E7%BD%B2-halo-%E5%92%8C-mysql/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%BD%BF%E7%94%A8-docker-%E9%83%A8%E7%BD%B2-halo-%E5%92%8C-mysql/</guid>
       <description>版本：1.6 使用 Docker 部署 Halo 和 MySQL 简介 该章节我们将分三种情况为您说明该如何同时使用 Docker + MySQL 来部署 Halo 前提条件： 我们默认您的机器上已经安装好 Docker 如果你想完</description>
     </item>
     
     <item>
       <title>个人博客系统设计(支持hexo和halo同步)</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%94%AF%E6%8C%81hexo%E5%92%8Chalo%E5%90%8C%E6%AD%A5/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%94%AF%E6%8C%81hexo%E5%92%8Chalo%E5%90%8C%E6%AD%A5/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%94%AF%E6%8C%81hexo%E5%92%8Chalo%E5%90%8C%E6%AD%A5/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%94%AF%E6%8C%81hexo%E5%92%8Chalo%E5%90%8C%E6%AD%A5/</guid>
       <description>个人博客系统设计(支持hexo和halo同步) 本文主要介绍自己的博客系统是如何设计的，并使用Halo博客同步器 将hexo（git pages: https://linshenkx.github.io ）文章自</description>
     </item>
     
     <item>
       <title>hexo同步</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%90%8C%E6%AD%A5/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%90%8C%E6%AD%A5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%90%8C%E6%AD%A5/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/17_01_%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/hexo%E5%90%8C%E6%AD%A5/</guid>
       <description>hexo同步 以下操作在你的第二个平台上进行，并确定已安装 node.js &amp;amp; npm。 在你想要同步博客的文件夹下执行 git clone &amp;lt;远端博客仓库地址&amp;gt; cd # 进</description>
     </item>
     

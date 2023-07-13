@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>asus on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/asus/</link>
+    <link>https://swimminghao1.github.io/tags/asus/</link>
     <description>Recent content in asus on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 May 2023 21:39:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 21:39:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/asus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>华硕路由器内网host功能设置</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/%E8%B7%AF%E7%94%B1/%E5%86%85%E7%BD%91host/%E5%86%85%E7%BD%91host%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/%E8%B7%AF%E7%94%B1/%E5%86%85%E7%BD%91host/%E5%86%85%E7%BD%91host%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Tue, 16 May 2023 21:39:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/%E8%B7%AF%E7%94%B1/%E5%86%85%E7%BD%91host/%E5%86%85%E7%BD%91host%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/%E8%B7%AF%E7%94%B1/%E5%86%85%E7%BD%91host/%E5%86%85%E7%BD%91host%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE/</guid>
       <description>华硕路由器修改本地Hosts局域网DNS转发设置 引子 联通网络，入户给配了智能光猫（集成光猫和无线路由器的功能），192.168.0.1 是智能</description>
     </item>
     

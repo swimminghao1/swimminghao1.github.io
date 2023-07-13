@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>nas on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/nas/</link>
+    <link>https://swimminghao1.github.io/tags/nas/</link>
     <description>Recent content in nas on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 25 Mar 2023 15:14:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 15:14:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/nas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grafana &#43; Prometheus &#43; node_exporter性能监控</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</link>
       <pubDate>Sat, 25 Mar 2023 15:14:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</guid>
       <description>Grafana + Prometheus + node_exporter性能监控 一、背景 在用Jmeter执行性能测试时，为了更好得收集压测数据，并展示性能测试结果数据，需要搭建一</description>
     </item>
     
     <item>
       <title>群晖上安装个人音乐服务器Navidrome</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E7%BE%A4%E6%99%96%E4%B8%8A%E5%AE%89%E8%A3%85%E4%B8%AA%E4%BA%BA%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8navidrome/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E7%BE%A4%E6%99%96%E4%B8%8A%E5%AE%89%E8%A3%85%E4%B8%AA%E4%BA%BA%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8navidrome/</link>
       <pubDate>Thu, 02 Mar 2023 08:56:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E7%BE%A4%E6%99%96%E4%B8%8A%E5%AE%89%E8%A3%85%E4%B8%AA%E4%BA%BA%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8navidrome/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E7%BE%A4%E6%99%96%E4%B8%8A%E5%AE%89%E8%A3%85%E4%B8%AA%E4%BA%BA%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8navidrome/</guid>
       <description>群晖上安装个人音乐服务器Navidrome 综述 audiostation 感觉不够轻量，客户端也不够轻量，打开登录都较慢，但有歌词插件 同时audiostation 没有</description>
     </item>
     
     <item>
       <title>推荐 22 款好用的命令行工具</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/%E6%8E%A8%E8%8D%9022%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/%E6%8E%A8%E8%8D%9022%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Fri, 09 Dec 2022 11:01:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/%E6%8E%A8%E8%8D%9022%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/%E6%8E%A8%E8%8D%9022%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</guid>
       <description>推荐 22 款好用的命令行工具 作者根据多年的终端使用经验，详细介绍了一些实用的 CLI 工具，希望它们能帮读者提高生产力。 我大部分的时间都花费在终端的使用</description>
     </item>
     
     <item>
       <title>V2ray Linux客户端v2rayA使用教程和全局代理</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2ray-linux%E5%AE%A2%E6%88%B7%E7%AB%AFv2raya%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%92%8C%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2ray-linux%E5%AE%A2%E6%88%B7%E7%AB%AFv2raya%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%92%8C%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86/</link>
       <pubDate>Fri, 18 Nov 2022 11:45:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2ray-linux%E5%AE%A2%E6%88%B7%E7%AB%AFv2raya%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%92%8C%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2ray-linux%E5%AE%A2%E6%88%B7%E7%AB%AFv2raya%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%92%8C%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86/</guid>
       <description>V2ray Linux客户端v2rayA使用教程和全局代理 源地址：https://github.com/v2rayA/v2rayA 我这里直接只用doc</description>
     </item>
     
     <item>
       <title>hlink安装及重启脚本（威联通篇）</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/hlink%E5%AE%89%E8%A3%85%E5%8F%8A%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC%E5%A8%81%E8%81%94%E9%80%9A%E7%AF%87/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/hlink%E5%AE%89%E8%A3%85%E5%8F%8A%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC%E5%A8%81%E8%81%94%E9%80%9A%E7%AF%87/</link>
       <pubDate>Thu, 03 Nov 2022 14:31:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/hlink%E5%AE%89%E8%A3%85%E5%8F%8A%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC%E5%A8%81%E8%81%94%E9%80%9A%E7%AF%87/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/hlink%E5%AE%89%E8%A3%85%E5%8F%8A%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC%E5%A8%81%E8%81%94%E9%80%9A%E7%AF%87/</guid>
       <description>hlink安装及重启脚本（威联通篇） 大家应该对hlink比较熟悉了。 它能近乎完美地按规则为我们创建一个“影子”媒体库。 对这个“影子”媒体库进</description>
     </item>
     
     <item>
       <title>nas定时任务</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/nas%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/nas%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
       <pubDate>Thu, 03 Nov 2022 14:31:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/nas%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/nas%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
       <description>nas定时任务 0 23 * * * /opt/bin/cp -rf ~/.zshrc /share/CACHEDEV1_DATA/zsh 0 23 * * * /opt/bin/cp -rf ~/.zsh_history /share/CACHEDEV1_DATA/zsh 0 23 * * * /opt/bin/cp -rf ~/.oh-my-zsh /share/CACHEDEV1_DATA/zsh</description>
     </item>
     
     <item>
       <title>QNAP安装Entware</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/qnap%E5%AE%89%E8%A3%85entware/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/qnap%E5%AE%89%E8%A3%85entware/</link>
       <pubDate>Wed, 19 Oct 2022 23:01:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/qnap%E5%AE%89%E8%A3%85entware/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/qnap%E5%AE%89%E8%A3%85entware/</guid>
       <description>QNAP安装Entware 入坑qnap(威联通)，在ssh到NAS后，发现没有常用的zsh、git、sudo，这可让用惯了centos，de</description>
     </item>
     
     <item>
       <title>将Roon引入我的听音系统的一些经验</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E5%B0%86roon%E5%BC%95%E5%85%A5%E6%88%91%E7%9A%84%E5%90%AC%E9%9F%B3%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E5%B0%86roon%E5%BC%95%E5%85%A5%E6%88%91%E7%9A%84%E5%90%AC%E9%9F%B3%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Mon, 08 Aug 2022 11:42:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E5%B0%86roon%E5%BC%95%E5%85%A5%E6%88%91%E7%9A%84%E5%90%AC%E9%9F%B3%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E5%B0%86roon%E5%BC%95%E5%85%A5%E6%88%91%E7%9A%84%E5%90%AC%E9%9F%B3%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
       <description>将Roon引入我的听音系统的一些经验 系统迁移 我对之前的听音系统还是比较满意的，我并不是发烧友，当系统的音质能达到一定程度，剩下的就是音乐欣赏</description>
     </item>
     
     <item>
       <title>手把手教你黑白群晖NAS安装破解版ROON音乐播放器1.6</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E9%BB%91%E7%99%BD%E7%BE%A4%E6%99%96nas%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88roon%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A81.6/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E9%BB%91%E7%99%BD%E7%BE%A4%E6%99%96nas%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88roon%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A81.6/</link>
       <pubDate>Wed, 30 Mar 2022 16:56:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E9%BB%91%E7%99%BD%E7%BE%A4%E6%99%96nas%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88roon%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A81.6/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E9%BB%91%E7%99%BD%E7%BE%A4%E6%99%96nas%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88roon%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A81.6/</guid>
       <description>手把手教你黑白群晖NAS安装破解版ROON音乐播放器1.6 什么是Roon？ roon不能说是一个播放软件，它是一个系统，由Roon Server</description>
     </item>
     
     <item>
       <title>emby-server媒体库硬链接</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby-server%E5%AA%92%E4%BD%93%E5%BA%93%E7%A1%AC%E9%93%BE%E6%8E%A5/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby-server%E5%AA%92%E4%BD%93%E5%BA%93%E7%A1%AC%E9%93%BE%E6%8E%A5/</link>
       <pubDate>Wed, 16 Mar 2022 21:39:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby-server%E5%AA%92%E4%BD%93%E5%BA%93%E7%A1%AC%E9%93%BE%E6%8E%A5/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby-server%E5%AA%92%E4%BD%93%E5%BA%93%E7%A1%AC%E9%93%BE%E6%8E%A5/</guid>
       <description>emby-server媒体库硬链接.md 现在emby和plex等媒体ggi库对于刮削的命名要求很高，而PT下载后我们却很难将下载的媒体资源添</description>
     </item>
     
     <item>
       <title>NAS上搭建SS客户端</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/nas%E4%B8%8A%E6%90%AD%E5%BB%BAss%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/nas%E4%B8%8A%E6%90%AD%E5%BB%BAss%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/nas%E4%B8%8A%E6%90%AD%E5%BB%BAss%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/nas%E4%B8%8A%E6%90%AD%E5%BB%BAss%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
       <description>群辉NAS上搭建SS客户端来连接远程并提供本地HTTP/Socks5代理 主要参考了这片文章。 shadowsocks的Http代理桥接为SOC</description>
     </item>
     

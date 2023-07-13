@@ -2,147 +2,147 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>java on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/java/</link>
+    <link>https://swimminghao1.github.io/tags/java/</link>
     <description>Recent content in java on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JAVA</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java/</guid>
       <description>一、基础篇 网络基础 TCP三次握手 1、OSI与TCP/IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、</description>
     </item>
     
     <item>
       <title>java 名词</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%90%8D%E8%AF%8D%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8%E5%A0%86%E6%A0%88%EF%B8%8F/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%90%8D%E8%AF%8D%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8%E5%A0%86%E6%A0%88%EF%B8%8F/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%90%8D%E8%AF%8D%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8%E5%A0%86%E6%A0%88%EF%B8%8F/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%90%8D%E8%AF%8D%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8%E5%A0%86%E6%A0%88%EF%B8%8F/</guid>
       <description>java 名词 “吃人”的那些Java名词：对象、引用、堆、栈️ 经验都是慢慢积累的，天才不多｜ 第170篇 记得中学的课本上，有一篇名为《狂人日记》课文；</description>
     </item>
     
     <item>
       <title>Java泛型类型擦除以及类型擦除带来的问题</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E6%B3%9B%E5%9E%8B%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E4%BB%A5%E5%8F%8A%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E6%B3%9B%E5%9E%8B%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E4%BB%A5%E5%8F%8A%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E6%B3%9B%E5%9E%8B%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E4%BB%A5%E5%8F%8A%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E6%B3%9B%E5%9E%8B%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E4%BB%A5%E5%8F%8A%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       <description>Java泛型类型擦除以及类型擦除带来的问题 1.Java泛型的实现方法：类型擦除 大家都知道，Java的泛型是伪泛型，这是因为Java在编译期间</description>
     </item>
     
     <item>
       <title>JAVA基础</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-imac/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-imac/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-imac/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-imac/</guid>
       <description>一、基础篇 网络基础 TCP三次握手 1、OSI与TCP/IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、</description>
     </item>
     
     <item>
       <title>java垃圾回收机制</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/</guid>
       <description>java垃圾回收 一、jvm内存结构 嗯，前面提到了堆分了「新生代」和 「老年代」，「新生代」又分为「Eden」和「Survivor」区，「Sur</description>
     </item>
     
     <item>
       <title>java内存模型1</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
       <description>java内存模型1 一、为什么有java内存模型？ 背景 现有计算机往往是多核的，每个核心下会有高速缓存。高速缓存的诞生是由于「CPU 与内存（主存</description>
     </item>
     
     <item>
       <title>Java内存模型2</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
       <description>Java内存模型2 Spring、Netty、Mybatis 等框架的代码中大量运用了 Java 多线程编程技巧。并发编程处理的恰当与否，将直接影响架构的</description>
     </item>
     
     <item>
       <title>Java线程池实现原理及其在美团业务中的实践</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%BE%8E%E5%9B%A2%E4%B8%9A%E5%8A%A1%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%BE%8E%E5%9B%A2%E4%B8%9A%E5%8A%A1%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%BE%8E%E5%9B%A2%E4%B8%9A%E5%8A%A1%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%BE%8E%E5%9B%A2%E4%B8%9A%E5%8A%A1%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5/</guid>
       <description>Java线程池实现原理及其在美团业务中的实践 随着计算机行业的飞速发展，摩尔定律逐渐失效，多核CPU成为主流。使用多线程并行计算逐渐成为开发人</description>
     </item>
     
     <item>
       <title>java学习路线图</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
       <description>java学习路线图 项目地址： Github地址：Snailclimb/JavaGuide Gitee地址： SnailClimb/JavaGuid</description>
     </item>
     
     <item>
       <title>java学习路线问题整理</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</guid>
       <description>java学习路线问题整理 Java 基础 为了能让自己写出更优秀的代码，《Effective Java》、《重构》 这两本书没事也可以看 并发 一些关于并发的小</description>
     </item>
     
     <item>
       <title>jvm调优</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/jvm%E8%B0%83%E4%BC%98/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/jvm%E8%B0%83%E4%BC%98/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/jvm%E8%B0%83%E4%BC%98/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/jvm%E8%B0%83%E4%BC%98/</guid>
       <description>jvm调优 一、优化系统的思路 没有jvm调优经历 一般来说关系型数据库是先到瓶颈，首先排查是否为数据库的问题 （这个过程中就需要评估自己建的索引是</description>
     </item>
     
     <item>
       <title>Spring SchedulingConfigurer实现动态定时任务(修改)</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/spring-schedulingconfigurer-%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/spring-schedulingconfigurer-%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/spring-schedulingconfigurer-%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/spring-schedulingconfigurer-%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
       <description>Spring SchedulingConfigurer 实现动态定时任务 一、前言 大家在日常工作中，一定使用过 Spring 的 @Scheduled 注解吧，通过该注解可以非常方便的帮助我们实现任务的定时执行。 但是该注解是不支持</description>
     </item>
     
     <item>
       <title>面试官：说说你了解class文件吗？</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E5%AE%98%E8%AF%B4%E8%AF%B4%E4%BD%A0%E4%BA%86%E8%A7%A3class%E6%96%87%E4%BB%B6%E5%90%97/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E5%AE%98%E8%AF%B4%E8%AF%B4%E4%BD%A0%E4%BA%86%E8%A7%A3class%E6%96%87%E4%BB%B6%E5%90%97/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E5%AE%98%E8%AF%B4%E8%AF%B4%E4%BD%A0%E4%BA%86%E8%A7%A3class%E6%96%87%E4%BB%B6%E5%90%97/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E9%9D%A2%E8%AF%95%E5%AE%98%E8%AF%B4%E8%AF%B4%E4%BD%A0%E4%BA%86%E8%A7%A3class%E6%96%87%E4%BB%B6%E5%90%97/</guid>
       <description>面试官：说说你了解class文件吗？ 本文思维导图： Class类文件结构 为什么Java可以一次编译到处运行？JVM无关性 与平台无关性是建立在操</description>
     </item>
     
     <item>
       <title>双亲委派机制</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</guid>
       <description>双亲委派机制 一、双亲委派机制 class文件是通过类加载器加载到jvm中的 为了防止内存中存在多份同样的字节码，使用了双亲委派机制（不会自己加载</description>
     </item>
     
     <item>
       <title>线程与进程</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/</guid>
       <description>线程与进程 一、进程 计算机内存空间 ​ 用户空间装着用户进程需要使用的资源，比如你在程序代码里开一个数组， 这个数组肯定存在用户空间;内核空间存放内</description>
     </item>
     

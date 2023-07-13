@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>bash on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/bash/</link>
+    <link>https://swimminghao1.github.io/tags/bash/</link>
     <description>Recent content in bash on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 15 Apr 2022 15:35:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 15:35:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>命令行的艺术</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</link>
       <pubDate>Fri, 15 Apr 2022 15:35:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</guid>
       <description>命令行的艺术 前言 基础 日常使用 文件及数据处理 系统调试 单行脚本 冷门但有用 仅限 OS X 系统 仅限 Windows 系统 更多资源 免责声明 熟练使用命令行是一种常常被忽视，或</description>
     </item>
     

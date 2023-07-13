@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mac on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/mac/</link>
+    <link>https://swimminghao1.github.io/tags/mac/</link>
     <description>Recent content in mac on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Mar 2023 09:56:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 09:56:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac宿主机访问Docker容器网络</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/mac%E5%AE%BF%E4%B8%BB%E6%9C%BA%E8%AE%BF%E9%97%AEdocker%E5%AE%B9%E5%99%A8%E7%BD%91%E7%BB%9C/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/mac%E5%AE%BF%E4%B8%BB%E6%9C%BA%E8%AE%BF%E9%97%AEdocker%E5%AE%B9%E5%99%A8%E7%BD%91%E7%BB%9C/</link>
       <pubDate>Fri, 31 Mar 2023 09:56:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/mac%E5%AE%BF%E4%B8%BB%E6%9C%BA%E8%AE%BF%E9%97%AEdocker%E5%AE%B9%E5%99%A8%E7%BD%91%E7%BB%9C/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/mac%E5%AE%BF%E4%B8%BB%E6%9C%BA%E8%AE%BF%E9%97%AEdocker%E5%AE%B9%E5%99%A8%E7%BD%91%E7%BB%9C/</guid>
       <description>Mac宿主机访问Docker容器网络 macOS上面Docker实现方式和Linux不一样，简单说macOS将Docker服务端(docker</description>
     </item>
     
     <item>
       <title>Safari实现SwitchyOmega的PAC代理功能</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/safari/safari%E4%BD%BF%E7%94%A8pac%E4%BB%A3%E7%90%86/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/safari/safari%E4%BD%BF%E7%94%A8pac%E4%BB%A3%E7%90%86/</link>
       <pubDate>Sat, 31 Dec 2022 20:30:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/safari/safari%E4%BD%BF%E7%94%A8pac%E4%BB%A3%E7%90%86/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/safari/safari%E4%BD%BF%E7%94%A8pac%E4%BB%A3%E7%90%86/</guid>
       <description>Safari实现SwitchyOmega的PAC代理功能 Safari 没有开放代理 API，因为 macOS 可以很方便地设置系统级的全局代理，但是全局代理则会导致所</description>
     </item>
     
     <item>
       <title>mac快捷键</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/macos/mac%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/macos/mac%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/macos/mac%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/macos/mac%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
       <description>mac快捷键 图形按键 按键或组合键 功能 ⌘ Command 键 ⌃ Control 键 ⌥ Option 键 ⇧ Shift 键 ⇪ Caps Lock fn 功能键常用快捷键 剪切、拷贝和粘贴 您可以在大多数 app 中使用这些快捷键来剪切、</description>
     </item>
     

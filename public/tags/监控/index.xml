@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>监控 on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/%E7%9B%91%E6%8E%A7/</link>
+    <link>https://swimminghao1.github.io/tags/%E7%9B%91%E6%8E%A7/</link>
     <description>Recent content in 监控 on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 25 Mar 2023 15:14:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/%E7%9B%91%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 15:14:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/%E7%9B%91%E6%8E%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grafana &#43; Prometheus &#43; node_exporter性能监控</title>
-      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</link>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</link>
       <pubDate>Sat, 25 Mar 2023 15:14:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</guid>
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</guid>
       <description>Grafana + Prometheus + node_exporter性能监控 一、背景 在用Jmeter执行性能测试时，为了更好得收集压测数据，并展示性能测试结果数据，需要搭建一</description>
     </item>
     

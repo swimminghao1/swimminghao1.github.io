@@ -2,345 +2,363 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on swimminghao</title>
-    <link>https://www.swimminghao.top/tags/</link>
+    <link>https://swimminghao1.github.io/tags/</link>
     <description>Recent content in Tags on swimminghao</description>
     <image>
-      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 May 2023 21:39:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jul 2023 10:21:30 +0800</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>标签1</title>
+      <link>https://swimminghao1.github.io/tags/%E6%A0%87%E7%AD%BE1/</link>
+      <pubDate>Thu, 13 Jul 2023 10:21:30 +0800</pubDate>
+      
+      <guid>https://swimminghao1.github.io/tags/%E6%A0%87%E7%AD%BE1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>标签2</title>
+      <link>https://swimminghao1.github.io/tags/%E6%A0%87%E7%AD%BE2/</link>
+      <pubDate>Thu, 13 Jul 2023 10:21:30 +0800</pubDate>
+      
+      <guid>https://swimminghao1.github.io/tags/%E6%A0%87%E7%AD%BE2/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>asus</title>
-      <link>https://www.swimminghao.top/tags/asus/</link>
+      <link>https://swimminghao1.github.io/tags/asus/</link>
       <pubDate>Tue, 16 May 2023 21:39:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/asus/</guid>
+      <guid>https://swimminghao1.github.io/tags/asus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>word</title>
-      <link>https://www.swimminghao.top/tags/word/</link>
+      <link>https://swimminghao1.github.io/tags/word/</link>
       <pubDate>Wed, 05 Apr 2023 18:06:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/word/</guid>
+      <guid>https://swimminghao1.github.io/tags/word/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mac</title>
-      <link>https://www.swimminghao.top/tags/mac/</link>
+      <link>https://swimminghao1.github.io/tags/mac/</link>
       <pubDate>Fri, 31 Mar 2023 09:56:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/mac/</guid>
+      <guid>https://swimminghao1.github.io/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>英语</title>
-      <link>https://www.swimminghao.top/tags/%E8%8B%B1%E8%AF%AD/</link>
+      <link>https://swimminghao1.github.io/tags/%E8%8B%B1%E8%AF%AD/</link>
       <pubDate>Tue, 28 Mar 2023 23:00:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E8%8B%B1%E8%AF%AD/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E8%8B%B1%E8%AF%AD/</guid>
       <description></description>
     </item>
     
     <item>
       <title>总结</title>
-      <link>https://www.swimminghao.top/tags/%E6%80%BB%E7%BB%93/</link>
+      <link>https://swimminghao1.github.io/tags/%E6%80%BB%E7%BB%93/</link>
       <pubDate>Tue, 28 Mar 2023 23:00:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E6%80%BB%E7%BB%93/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nas</title>
-      <link>https://www.swimminghao.top/tags/nas/</link>
+      <link>https://swimminghao1.github.io/tags/nas/</link>
       <pubDate>Sat, 25 Mar 2023 15:14:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/nas/</guid>
+      <guid>https://swimminghao1.github.io/tags/nas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>监控</title>
-      <link>https://www.swimminghao.top/tags/%E7%9B%91%E6%8E%A7/</link>
+      <link>https://swimminghao1.github.io/tags/%E7%9B%91%E6%8E%A7/</link>
       <pubDate>Sat, 25 Mar 2023 15:14:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E7%9B%91%E6%8E%A7/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E7%9B%91%E6%8E%A7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>技巧</title>
-      <link>https://www.swimminghao.top/tags/%E6%8A%80%E5%B7%A7/</link>
+      <link>https://swimminghao1.github.io/tags/%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Fri, 24 Mar 2023 11:43:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E6%8A%80%E5%B7%A7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>photoshop</title>
-      <link>https://www.swimminghao.top/tags/photoshop/</link>
+      <link>https://swimminghao1.github.io/tags/photoshop/</link>
       <pubDate>Wed, 22 Mar 2023 09:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/photoshop/</guid>
+      <guid>https://swimminghao1.github.io/tags/photoshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>office</title>
-      <link>https://www.swimminghao.top/tags/office/</link>
+      <link>https://swimminghao1.github.io/tags/office/</link>
       <pubDate>Thu, 02 Mar 2023 11:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/office/</guid>
+      <guid>https://swimminghao1.github.io/tags/office/</guid>
       <description></description>
     </item>
     
     <item>
       <title>telegrame</title>
-      <link>https://www.swimminghao.top/tags/telegrame/</link>
+      <link>https://swimminghao1.github.io/tags/telegrame/</link>
       <pubDate>Wed, 28 Dec 2022 16:58:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/telegrame/</guid>
+      <guid>https://swimminghao1.github.io/tags/telegrame/</guid>
       <description></description>
     </item>
     
     <item>
       <title>正则</title>
-      <link>https://www.swimminghao.top/tags/%E6%AD%A3%E5%88%99/</link>
+      <link>https://swimminghao1.github.io/tags/%E6%AD%A3%E5%88%99/</link>
       <pubDate>Wed, 09 Nov 2022 15:55:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E6%AD%A3%E5%88%99/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E6%AD%A3%E5%88%99/</guid>
       <description></description>
     </item>
     
     <item>
       <title>专利</title>
-      <link>https://www.swimminghao.top/tags/%E4%B8%93%E5%88%A9/</link>
+      <link>https://swimminghao1.github.io/tags/%E4%B8%93%E5%88%A9/</link>
       <pubDate>Tue, 25 Oct 2022 15:08:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E4%B8%93%E5%88%A9/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E4%B8%93%E5%88%A9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell</title>
-      <link>https://www.swimminghao.top/tags/shell/</link>
+      <link>https://swimminghao1.github.io/tags/shell/</link>
       <pubDate>Fri, 14 Oct 2022 15:17:10 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/shell/</guid>
+      <guid>https://swimminghao1.github.io/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>编号</title>
-      <link>https://www.swimminghao.top/tags/%E7%BC%96%E5%8F%B7/</link>
+      <link>https://swimminghao1.github.io/tags/%E7%BC%96%E5%8F%B7/</link>
       <pubDate>Fri, 14 Oct 2022 15:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E7%BC%96%E5%8F%B7/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E7%BC%96%E5%8F%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>影音</title>
-      <link>https://www.swimminghao.top/tags/%E5%BD%B1%E9%9F%B3/</link>
+      <link>https://swimminghao1.github.io/tags/%E5%BD%B1%E9%9F%B3/</link>
       <pubDate>Mon, 08 Aug 2022 11:42:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E5%BD%B1%E9%9F%B3/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E5%BD%B1%E9%9F%B3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>博客</title>
-      <link>https://www.swimminghao.top/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://swimminghao1.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Fri, 24 Jun 2022 01:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>记录</title>
-      <link>https://www.swimminghao.top/tags/%E8%AE%B0%E5%BD%95/</link>
+      <link>https://swimminghao1.github.io/tags/%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Fri, 24 Jun 2022 01:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E8%AE%B0%E5%BD%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>终端</title>
-      <link>https://www.swimminghao.top/tags/%E7%BB%88%E7%AB%AF/</link>
+      <link>https://swimminghao1.github.io/tags/%E7%BB%88%E7%AB%AF/</link>
       <pubDate>Thu, 23 Jun 2022 23:45:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E7%BB%88%E7%AB%AF/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E7%BB%88%E7%AB%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>配置</title>
-      <link>https://www.swimminghao.top/tags/%E9%85%8D%E7%BD%AE/</link>
+      <link>https://swimminghao1.github.io/tags/%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Fri, 10 Jun 2022 23:01:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E9%85%8D%E7%BD%AE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>课题</title>
-      <link>https://www.swimminghao.top/tags/%E8%AF%BE%E9%A2%98/</link>
+      <link>https://swimminghao1.github.io/tags/%E8%AF%BE%E9%A2%98/</link>
       <pubDate>Thu, 09 Jun 2022 15:43:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E8%AF%BE%E9%A2%98/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E8%AF%BE%E9%A2%98/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>https://www.swimminghao.top/tags/bash/</link>
+      <link>https://swimminghao1.github.io/tags/bash/</link>
       <pubDate>Fri, 15 Apr 2022 15:35:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/bash/</guid>
+      <guid>https://swimminghao1.github.io/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>redis</title>
-      <link>https://www.swimminghao.top/tags/redis/</link>
+      <link>https://swimminghao1.github.io/tags/redis/</link>
       <pubDate>Wed, 16 Mar 2022 10:05:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/redis/</guid>
+      <guid>https://swimminghao1.github.io/tags/redis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SpringBoot</title>
-      <link>https://www.swimminghao.top/tags/springboot/</link>
+      <link>https://swimminghao1.github.io/tags/springboot/</link>
       <pubDate>Wed, 16 Mar 2022 10:05:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/springboot/</guid>
+      <guid>https://swimminghao1.github.io/tags/springboot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>脚手架</title>
-      <link>https://www.swimminghao.top/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
+      <link>https://swimminghao1.github.io/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
       <pubDate>Wed, 16 Mar 2022 10:05:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>键盘</title>
-      <link>https://www.swimminghao.top/tags/%E9%94%AE%E7%9B%98/</link>
+      <link>https://swimminghao1.github.io/tags/%E9%94%AE%E7%9B%98/</link>
       <pubDate>Mon, 14 Mar 2022 13:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E9%94%AE%E7%9B%98/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E9%94%AE%E7%9B%98/</guid>
       <description></description>
     </item>
     
     <item>
       <title>面试</title>
-      <link>https://www.swimminghao.top/tags/%E9%9D%A2%E8%AF%95/</link>
+      <link>https://swimminghao1.github.io/tags/%E9%9D%A2%E8%AF%95/</link>
       <pubDate>Sun, 06 Mar 2022 09:10:00 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E9%9D%A2%E8%AF%95/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E9%9D%A2%E8%AF%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>private</title>
-      <link>https://www.swimminghao.top/tags/private/</link>
+      <link>https://swimminghao1.github.io/tags/private/</link>
       <pubDate>Tue, 01 Mar 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/private/</guid>
+      <guid>https://swimminghao1.github.io/tags/private/</guid>
       <description></description>
     </item>
     
     <item>
       <title>感悟</title>
-      <link>https://www.swimminghao.top/tags/%E6%84%9F%E6%82%9F/</link>
+      <link>https://swimminghao1.github.io/tags/%E6%84%9F%E6%82%9F/</link>
       <pubDate>Tue, 01 Mar 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E6%84%9F%E6%82%9F/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E6%84%9F%E6%82%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://www.swimminghao.top/tags/docker/</link>
+      <link>https://swimminghao1.github.io/tags/docker/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/docker/</guid>
+      <guid>https://swimminghao1.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://www.swimminghao.top/tags/git/</link>
+      <link>https://swimminghao1.github.io/tags/git/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/git/</guid>
+      <guid>https://swimminghao1.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>https://www.swimminghao.top/tags/java/</link>
+      <link>https://swimminghao1.github.io/tags/java/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/java/</guid>
+      <guid>https://swimminghao1.github.io/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java8</title>
-      <link>https://www.swimminghao.top/tags/java8/</link>
+      <link>https://swimminghao1.github.io/tags/java8/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/java8/</guid>
+      <guid>https://swimminghao1.github.io/tags/java8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>https://www.swimminghao.top/tags/mysql/</link>
+      <link>https://swimminghao1.github.io/tags/mysql/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/mysql/</guid>
+      <guid>https://swimminghao1.github.io/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>编程</title>
-      <link>https://www.swimminghao.top/tags/%E7%BC%96%E7%A8%8B/</link>
+      <link>https://swimminghao1.github.io/tags/%E7%BC%96%E7%A8%8B/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E7%BC%96%E7%A8%8B/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E7%BC%96%E7%A8%8B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>了解</title>
-      <link>https://www.swimminghao.top/tags/%E4%BA%86%E8%A7%A3/</link>
+      <link>https://swimminghao1.github.io/tags/%E4%BA%86%E8%A7%A3/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E4%BA%86%E8%A7%A3/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E4%BA%86%E8%A7%A3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>算法</title>
-      <link>https://www.swimminghao.top/tags/%E7%AE%97%E6%B3%95/</link>
+      <link>https://swimminghao1.github.io/tags/%E7%AE%97%E6%B3%95/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
       
-      <guid>https://www.swimminghao.top/tags/%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://swimminghao1.github.io/tags/%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     
