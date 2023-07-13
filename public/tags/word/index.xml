@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>word on swimminghao</title>
+    <link>https://www.swimminghao.top/tags/word/</link>
+    <description>Recent content in word on swimminghao</description>
+    <image>
+      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 05 Apr 2023 18:06:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/word/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>word图片自动编号</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/03_01_office%E5%AD%A6%E4%B9%A0/word%E6%8A%80%E5%B7%A7/word%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E7%BC%96%E5%8F%B7/</link>
+      <pubDate>Wed, 05 Apr 2023 18:06:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/03_01_office%E5%AD%A6%E4%B9%A0/word%E6%8A%80%E5%B7%A7/word%E5%9B%BE%E7%89%87%E8%87%AA%E5%8A%A8%E7%BC%96%E5%8F%B7/</guid>
+      <description>word图片自动编号 在写论文、报告或标书时，为了使数据更加直观，文档中会使用大量图片、表格或图表等元素。 如果图片、表格或图表太多，为了对它们</description>
+    </item>
+    
+    <item>
+      <title>Word使用正则表达式高效替换</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/03_01_office%E5%AD%A6%E4%B9%A0/word%E6%8A%80%E5%B7%A7/word%E6%8A%80%E5%B7%A7%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%AB%98%E6%95%88%E6%9B%BF%E6%8D%A2/</link>
+      <pubDate>Mon, 31 Oct 2022 16:30:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/03_01_office%E5%AD%A6%E4%B9%A0/word%E6%8A%80%E5%B7%A7/word%E6%8A%80%E5%B7%A7%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%AB%98%E6%95%88%E6%9B%BF%E6%8D%A2/</guid>
+      <description>Word技巧：如何使用正则表达式高效替换 1. 引言 在日常生活中，我们经常需要使用 Word 的查找与替换功能来处理一些简单数据。如果数据相对复杂，我们就需</description>
+    </item>
+    
+    <item>
+      <title>word技巧</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/03_01_office%E5%AD%A6%E4%B9%A0/word%E6%8A%80%E5%B7%A7/word%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Fri, 14 Oct 2022 15:10:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/03_01_office%E5%AD%A6%E4%B9%A0/word%E6%8A%80%E5%B7%A7/word%E6%8A%80%E5%B7%A7/</guid>
+      <description>word技巧 正则替换 替换汉字之间的空格 查找：([!^1-^127]) ([!^1-^127]) 替换：\1\2 删除英文字母和非英文字母之间的半角空格 【查找】：([A-</description>
+    </item>
+    
+  </channel>
+</rss>

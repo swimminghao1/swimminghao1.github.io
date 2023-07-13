@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>redis on swimminghao</title>
+    <link>https://www.swimminghao.top/tags/redis/</link>
+    <description>Recent content in redis on swimminghao</description>
+    <image>
+      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 16 Mar 2022 10:05:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot 2.0 集成 redis</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_04_spring/spring-boot-2.0-%E9%9B%86%E6%88%90-redis/</link>
+      <pubDate>Wed, 16 Mar 2022 10:05:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_04_spring/spring-boot-2.0-%E9%9B%86%E6%88%90-redis/</guid>
+      <description>从 Spring Boot 2.x 开始 Lettuce 已取代 Jedis 成为首选 Redis 的客户端。当然 Spring Boot 2.x 仍然支持 Jedis，并且你可以任意切换客户端。 Lettuce Lettuce 是一个可伸缩的线程安全的 Redis 客户端，支持</description>
+    </item>
+    
+  </channel>
+</rss>

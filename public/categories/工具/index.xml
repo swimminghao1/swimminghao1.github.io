@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>工具 on swimminghao</title>
+    <link>https://www.swimminghao.top/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on swimminghao</description>
+    <image>
+      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 16 May 2023 21:39:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>华硕路由器内网host功能设置</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/%E8%B7%AF%E7%94%B1/%E5%86%85%E7%BD%91host/%E5%86%85%E7%BD%91host%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 16 May 2023 21:39:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/%E8%B7%AF%E7%94%B1/%E5%86%85%E7%BD%91host/%E5%86%85%E7%BD%91host%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE/</guid>
+      <description>华硕路由器修改本地Hosts局域网DNS转发设置 引子 联通网络，入户给配了智能光猫（集成光猫和无线路由器的功能），192.168.0.1 是智能</description>
+    </item>
+    
+    <item>
+      <title>Mac宿主机访问Docker容器网络</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/mac%E5%AE%BF%E4%B8%BB%E6%9C%BA%E8%AE%BF%E9%97%AEdocker%E5%AE%B9%E5%99%A8%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Fri, 31 Mar 2023 09:56:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/mac%E5%AE%BF%E4%B8%BB%E6%9C%BA%E8%AE%BF%E9%97%AEdocker%E5%AE%B9%E5%99%A8%E7%BD%91%E7%BB%9C/</guid>
+      <description>Mac宿主机访问Docker容器网络 macOS上面Docker实现方式和Linux不一样，简单说macOS将Docker服务端(docker</description>
+    </item>
+    
+    <item>
+      <title>Grafana &#43; Prometheus &#43; node_exporter性能监控</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</link>
+      <pubDate>Sat, 25 Mar 2023 15:14:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/grafana-&#43;-prometheus-&#43;-node_exporter%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7/</guid>
+      <description>Grafana + Prometheus + node_exporter性能监控 一、背景 在用Jmeter执行性能测试时，为了更好得收集压测数据，并展示性能测试结果数据，需要搭建一</description>
+    </item>
+    
+    <item>
+      <title>群晖上安装个人音乐服务器Navidrome</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E7%BE%A4%E6%99%96%E4%B8%8A%E5%AE%89%E8%A3%85%E4%B8%AA%E4%BA%BA%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8navidrome/</link>
+      <pubDate>Thu, 02 Mar 2023 08:56:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E7%BE%A4%E6%99%96%E4%B8%8A%E5%AE%89%E8%A3%85%E4%B8%AA%E4%BA%BA%E9%9F%B3%E4%B9%90%E6%9C%8D%E5%8A%A1%E5%99%A8navidrome/</guid>
+      <description>群晖上安装个人音乐服务器Navidrome 综述 audiostation 感觉不够轻量，客户端也不够轻量，打开登录都较慢，但有歌词插件 同时audiostation 没有</description>
+    </item>
+    
+    <item>
+      <title>Safari实现SwitchyOmega的PAC代理功能</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/safari/safari%E4%BD%BF%E7%94%A8pac%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Sat, 31 Dec 2022 20:30:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/safari/safari%E4%BD%BF%E7%94%A8pac%E4%BB%A3%E7%90%86/</guid>
+      <description>Safari实现SwitchyOmega的PAC代理功能 Safari 没有开放代理 API，因为 macOS 可以很方便地设置系统级的全局代理，但是全局代理则会导致所</description>
+    </item>
+    
+    <item>
+      <title>推荐 22 款好用的命令行工具</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/%E6%8E%A8%E8%8D%9022%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 09 Dec 2022 11:01:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/%E6%8E%A8%E8%8D%9022%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</guid>
+      <description>推荐 22 款好用的命令行工具 作者根据多年的终端使用经验，详细介绍了一些实用的 CLI 工具，希望它们能帮读者提高生产力。 我大部分的时间都花费在终端的使用</description>
+    </item>
+    
+    <item>
+      <title>V2ray Linux客户端v2rayA使用教程和全局代理</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2ray-linux%E5%AE%A2%E6%88%B7%E7%AB%AFv2raya%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%92%8C%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Fri, 18 Nov 2022 11:45:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/v2ray-linux%E5%AE%A2%E6%88%B7%E7%AB%AFv2raya%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E5%92%8C%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86/</guid>
+      <description>V2ray Linux客户端v2rayA使用教程和全局代理 源地址：https://github.com/v2rayA/v2rayA 我这里直接只用doc</description>
+    </item>
+    
+    <item>
+      <title>hlink安装及重启脚本（威联通篇）</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/hlink%E5%AE%89%E8%A3%85%E5%8F%8A%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC%E5%A8%81%E8%81%94%E9%80%9A%E7%AF%87/</link>
+      <pubDate>Thu, 03 Nov 2022 14:31:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/hlink%E5%AE%89%E8%A3%85%E5%8F%8A%E9%87%8D%E5%90%AF%E8%84%9A%E6%9C%AC%E5%A8%81%E8%81%94%E9%80%9A%E7%AF%87/</guid>
+      <description>hlink安装及重启脚本（威联通篇） 大家应该对hlink比较熟悉了。 它能近乎完美地按规则为我们创建一个“影子”媒体库。 对这个“影子”媒体库进</description>
+    </item>
+    
+    <item>
+      <title>nas定时任务</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/nas%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
+      <pubDate>Thu, 03 Nov 2022 14:31:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/nas%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+      <description>nas定时任务 0 23 * * * /opt/bin/cp -rf ~/.zshrc /share/CACHEDEV1_DATA/zsh 0 23 * * * /opt/bin/cp -rf ~/.zsh_history /share/CACHEDEV1_DATA/zsh 0 23 * * * /opt/bin/cp -rf ~/.oh-my-zsh /share/CACHEDEV1_DATA/zsh</description>
+    </item>
+    
+    <item>
+      <title>QNAP安装Entware</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/qnap%E5%AE%89%E8%A3%85entware/</link>
+      <pubDate>Wed, 19 Oct 2022 23:01:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/qnap%E7%BB%88%E7%AB%AF/qnap%E5%AE%89%E8%A3%85entware/</guid>
+      <description>QNAP安装Entware 入坑qnap(威联通)，在ssh到NAS后，发现没有常用的zsh、git、sudo，这可让用惯了centos，de</description>
+    </item>
+    
+    <item>
+      <title>新建文件夹bash</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9bash/</link>
+      <pubDate>Fri, 14 Oct 2022 15:17:10 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9bash/</guid>
+      <description>#!/bin/bash for line in `cat apple.txt` # 将 cat apple.txt的输出作为字符串,for逐个读取赋值line变量 #``为反引号 #也可以使用取值符号$(cat apple.</description>
+    </item>
+    
+    <item>
+      <title>将Roon引入我的听音系统的一些经验</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E5%B0%86roon%E5%BC%95%E5%85%A5%E6%88%91%E7%9A%84%E5%90%AC%E9%9F%B3%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Mon, 08 Aug 2022 11:42:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E5%B0%86roon%E5%BC%95%E5%85%A5%E6%88%91%E7%9A%84%E5%90%AC%E9%9F%B3%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+      <description>将Roon引入我的听音系统的一些经验 系统迁移 我对之前的听音系统还是比较满意的，我并不是发烧友，当系统的音质能达到一定程度，剩下的就是音乐欣赏</description>
+    </item>
+    
+    <item>
+      <title>WSL2 中访问宿主机 Windows 的代理</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/wsl2-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%BA-windows-%E7%9A%84%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Thu, 23 Jun 2022 23:45:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/wsl2-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%AE%BF%E4%B8%BB%E6%9C%BA-windows-%E7%9A%84%E4%BB%A3%E7%90%86/</guid>
+      <description>WSL2 中访问宿主机 Windows 的代理 最近疫情期间很多事情都得用代理连到学校内网去做，但是 WSL2 因为是通过虚拟机的方式实现，网络不再像 WSL1 一样与 Windows 共享，变成了一个</description>
+    </item>
+    
+    <item>
+      <title>linux 中为 cp 和 mv 命令添加进度条</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/linux-%E4%B8%AD%E4%B8%BA-cp-%E5%92%8C-mv-%E5%91%BD%E4%BB%A4%E6%B7%BB%E5%8A%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1/</link>
+      <pubDate>Thu, 23 Jun 2022 23:31:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/linux-%E4%B8%AD%E4%B8%BA-cp-%E5%92%8C-mv-%E5%91%BD%E4%BB%A4%E6%B7%BB%E5%8A%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1/</guid>
+      <description>linux 中为 cp 和 mv 命令添加进度条 GNU cp 和 GNU mv 工具用于复制和移动文件和目录在GNU / Linux的操作系统。这两个应用程序中缺少的一个功能是它们不显示任</description>
+    </item>
+    
+    <item>
+      <title>zsh必备插件</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E9%85%8D%E7%BD%AE/zsh%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Fri, 10 Jun 2022 23:01:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E9%85%8D%E7%BD%AE/zsh%E5%BF%85%E5%A4%87%E6%8F%92%E4%BB%B6/</guid>
+      <description>zsh必备插件 首先是 oh-my-zsh 自带的 alias 插件，这些东西能让你在终端少打很多字： 1. git 定义了有关 git 的 alias。常用的有 gaa = git add &amp;ndash;all gcmsg = git commit -m ga = git add gst = git</description>
+    </item>
+    
+    <item>
+      <title>glance内存分析工具使用</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/glance%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Thu, 21 Apr 2022 11:29:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/14_01_%E7%BB%88%E7%AB%AF/%E7%BB%88%E7%AB%AF/%E5%B7%A5%E5%85%B7/glance%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</guid>
+      <description>glance内存分析工具使用 glances 是一款用于 Linux、BSD 的开源命令行系统监视工具，它使用 Python 语言开发，能够监视 CPU、负载、内存、磁盘 I/O</description>
+    </item>
+    
+    <item>
+      <title>命令行的艺术</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</link>
+      <pubDate>Fri, 15 Apr 2022 15:35:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</guid>
+      <description>命令行的艺术 前言 基础 日常使用 文件及数据处理 系统调试 单行脚本 冷门但有用 仅限 OS X 系统 仅限 Windows 系统 更多资源 免责声明 熟练使用命令行是一种常常被忽视，或</description>
+    </item>
+    
+    <item>
+      <title>手把手教你黑白群晖NAS安装破解版ROON音乐播放器1.6</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E9%BB%91%E7%99%BD%E7%BE%A4%E6%99%96nas%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88roon%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A81.6/</link>
+      <pubDate>Wed, 30 Mar 2022 16:56:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E9%BB%91%E7%99%BD%E7%BE%A4%E6%99%96nas%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E7%89%88roon%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A81.6/</guid>
+      <description>手把手教你黑白群晖NAS安装破解版ROON音乐播放器1.6 什么是Roon？ roon不能说是一个播放软件，它是一个系统，由Roon Server</description>
+    </item>
+    
+    <item>
+      <title>emby-server媒体库硬链接</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby-server%E5%AA%92%E4%BD%93%E5%BA%93%E7%A1%AC%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Wed, 16 Mar 2022 21:39:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby-server%E5%AA%92%E4%BD%93%E5%BA%93%E7%A1%AC%E9%93%BE%E6%8E%A5/</guid>
+      <description>emby-server媒体库硬链接.md 现在emby和plex等媒体ggi库对于刮削的命名要求很高，而PT下载后我们却很难将下载的媒体资源添</description>
+    </item>
+    
+    <item>
+      <title>mac快捷键</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/macos/mac%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/07_01_macos/macos/mac%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <description>mac快捷键 图形按键 按键或组合键 功能 ⌘ Command 键 ⌃ Control 键 ⌥ Option 键 ⇧ Shift 键 ⇪ Caps Lock fn 功能键常用快捷键 剪切、拷贝和粘贴 您可以在大多数 app 中使用这些快捷键来剪切、</description>
+    </item>
+    
+    <item>
+      <title>NAS上搭建SS客户端</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/nas%E4%B8%8A%E6%90%AD%E5%BB%BAss%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/nas%E4%B8%8A%E6%90%AD%E5%BB%BAss%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
+      <description>群辉NAS上搭建SS客户端来连接远程并提供本地HTTP/Socks5代理 主要参考了这片文章。 shadowsocks的Http代理桥接为SOC</description>
+    </item>
+    
+    <item>
+      <title>shell效率</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%87/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%87/</guid>
+      <description>§1效率 输入相似文件名太麻烦 用花括号括起来的字符串用逗号连接，可以自动扩展，非常有用，直接看例子: $ echo {one,two,three}file onefile twofile threefile $ echo {one,two,three}{1,2,3} one1 one2 one3 two1 two2 two3 three1 three2 three3 你看，</description>
+    </item>
+    
+    <item>
+      <title>shell效率0</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%870/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%870/</guid>
+      <description>[toc] §1效率 输入相似文件名太麻烦 用花括号括起来的字符串用逗号连接，可以自动扩展，非常有用，直接看例子: $ echo {one,two,three}file onefile twofile threefile $ echo {one,two,three}{1,2,3} one1 one2 one3 two1 two2 two3 three1 three2 three3 你看</description>
+    </item>
+    
+    <item>
+      <title>shell知识点</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/linux-shell%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/linux-shell%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
+      <description>$1易混淆点 一、标准输入和参数的区别 这个问题一定是最容易让人迷惑的，具体来说，就是搞不清什么时候用管道 符| 和文件重定向&amp;gt; ，&amp;lt; ，什</description>
+    </item>
+    
+    <item>
+      <title>报告分类bash</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%8A%A5%E5%91%8A%E5%88%86%E7%B1%BBbash/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%8A%A5%E5%91%8A%E5%88%86%E7%B1%BBbash/</guid>
+      <description>报告分类bash for file in *.pdf; do mkdir -p -- &amp;#34;${file%%-*}&amp;#34; &amp;amp;&amp;amp; \ mv -- &amp;#34;$file&amp;#34; &amp;#34;${file%%-*}&amp;#34;; done</description>
+    </item>
+    
+  </channel>
+</rss>

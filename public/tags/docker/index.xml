@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>docker on swimminghao</title>
+    <link>https://www.swimminghao.top/tags/docker/</link>
+    <description>Recent content in docker on swimminghao</description>
+    <image>
+      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerfile</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/05_01_docker/docker/dockerfile/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/05_01_docker/docker/dockerfile/</guid>
+      <description>Docker相关指令 docker镜像运行以及日志 ❯ docker run --restart=always -d --name holer-client -e PARAMS=&amp;#34;www.swimminghao.top 6060 51c45156bf1c4a82b4e6ffff2150b65e&amp;#34; swimminghao/holer-client:latest ❯ docker run -d --name holer-server --restart=always --network=host -p 600:600 -p 6060:6060 -p 6443:6443 -p 11000-11010:11000-11010 swimminghao/holer-server:latest ❯ docker logs -f 1ed9a5d6f0cc Dockerfile 打包jar成docke</description>
+    </item>
+    
+  </channel>
+</rss>

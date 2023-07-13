@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>面试 on swimminghao</title>
+    <link>https://www.swimminghao.top/tags/%E9%9D%A2%E8%AF%95/</link>
+    <description>Recent content in 面试 on swimminghao</description>
+    <image>
+      <url>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.swimminghao.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 06 Mar 2022 09:10:00 +0000</lastBuildDate><atom:link href="https://www.swimminghao.top/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1、【对线面试官】今天来聊聊Java注解</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/1%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%BB%8A%E5%A4%A9%E6%9D%A5%E8%81%8A%E8%81%8Ajava%E6%B3%A8%E8%A7%A3/</link>
+      <pubDate>Sun, 06 Mar 2022 09:10:00 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/1%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%BB%8A%E5%A4%A9%E6%9D%A5%E8%81%8A%E8%81%8Ajava%E6%B3%A8%E8%A7%A3/</guid>
+      <description>1、【对线面试官】今天来聊聊Java注解 什么是注解？ 注解在我的理解下，就是代码中的特殊标记，这些标记可以在编译、类加载、运行时被读取，并执行</description>
+    </item>
+    
+    <item>
+      <title>10、【对线面试官】TreadLocal</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/10%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98treadlocal/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/10%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98treadlocal/</guid>
+      <description>10、【对线面试官】TreadLocal 今天要不来聊聊ThreadLocal吧？ 我个人对ThreadLocal理解就是 它能够提供了线程的局部</description>
+    </item>
+    
+    <item>
+      <title>11、【对线面试官】CountDownLatch和CyclicBarrier</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/11%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98countdownlatch%E5%92%8Ccyclicbarrier/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/11%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98countdownlatch%E5%92%8Ccyclicbarrier/</guid>
+      <description>11、【对线面试官】CountDownLatch和CyclicBarrier 我现在有个场景：现在我有50个任务，这50个任务在完成之后，才能</description>
+    </item>
+    
+    <item>
+      <title>12、【对线面试官】List</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/12%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98list/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/12%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98list/</guid>
+      <description>12、【对线面试官】List 要不今天来讲讲Java的List吧，你对List了解多少？ List在Java里边是一个接口，常见的实现类有Arr</description>
+    </item>
+    
+    <item>
+      <title>13、【对线面试官】Map</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/13%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98map/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/13%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98map/</guid>
+      <description>13、【对线面试官】Map 今天来讲讲Map吧，你对Map了解多少？就讲JDK1.8就好咯 Map在Java里边是一个接口，常见的实现类有Has</description>
+    </item>
+    
+    <item>
+      <title>14、【对线面试官】SpringMVC</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/14%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98springmvc/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/14%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98springmvc/</guid>
+      <description>14、【对线面试官】SpringMVC 今天要不来聊聊SpringMVC吧？ 我先简单说下我对SpringMVC的理解哈 SpringMVC我觉得</description>
+    </item>
+    
+    <item>
+      <title>15、【对线面试官】Spring基础</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/15%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98spring%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/15%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98spring%E5%9F%BA%E7%A1%80/</guid>
+      <description>15、【对线面试官】Spring基础 要不你来讲讲Spring的IOC和AOP你是怎么理解的呗？ 我个人理解下：SpringIOC解决的是对象管</description>
+    </item>
+    
+    <item>
+      <title>16、【对线面试官】SpringBean生命周期</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/16%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98springbean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/16%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98springbean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
+      <description>16、【对线面试官】SpringBean生命周期 今天要不来聊聊Spring对Bean的生命周期管理？ 嗯，没问题的。 很早之前我就看过源码，但S</description>
+    </item>
+    
+    <item>
+      <title>17、【对线面试官】Redis基础</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/17%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/17%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E5%9F%BA%E7%A1%80/</guid>
+      <description>17、【对线面试官】Redis基础 你先来讲讲为什么要用Redis吧？ 我个人是这样理解的：无论Redis也好、MySQL也好、HDFS也好、H</description>
+    </item>
+    
+    <item>
+      <title>18、【对线面试官】Redis持久化</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/18%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/18%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+      <description>18、【对线面试官】Redis持久化 嗯，开始吧，今天要不来聊聊Redisl的持久化机制吧？ 在上一次面试已经说过了Redis：是基于内存的 假设</description>
+    </item>
+    
+    <item>
+      <title>19、【对线面试官】kafka基础</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/19%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98kafka%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/19%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98kafka%E5%9F%BA%E7%A1%80/</guid>
+      <description>19、【对线面试官】kafka基础 今天要不来聊聊消息队列吧？我看你项目不少地方都写到Kafka了.你简单说明下你使用Kafka的场景吧 使用消</description>
+    </item>
+    
+    <item>
+      <title>2、【对线面试官】今天来聊聊Java泛型</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/2%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%BB%8A%E5%A4%A9%E6%9D%A5%E8%81%8A%E8%81%8Ajava%E6%B3%9B%E5%9E%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/2%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%BB%8A%E5%A4%A9%E6%9D%A5%E8%81%8A%E8%81%8Ajava%E6%B3%9B%E5%9E%8B/</guid>
+      <description>#2、【对线面试官】今天来聊聊Java泛型 泛型了解 在Java中的泛型简单来说就是：在创建对象或调用方法的时候才明确下具体的类型 使用泛型的好处</description>
+    </item>
+    
+    <item>
+      <title>20、【对线面试官】使用kafka会考虑什么问题</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/20%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%BD%BF%E7%94%A8kafka%E4%BC%9A%E8%80%83%E8%99%91%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/20%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%BD%BF%E7%94%A8kafka%E4%BC%9A%E8%80%83%E8%99%91%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98/</guid>
+      <description>20、【对线面试官】使用kafka会考虑什么问题 你提到了你这边会从交易的消息报获取到订单的数据，然后做业务的处理；也提到了你用的是Kafka</description>
+    </item>
+    
+    <item>
+      <title>21、【对线面试官】Mysql索引</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/21%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98mysql%E7%B4%A2%E5%BC%95/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/21%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98mysql%E7%B4%A2%E5%BC%95/</guid>
+      <description>21、【对线面试官】Mysql索引 我看你简历上写了MySQL，对MySQL InnoDB引擎的索引了解吗？ 嗯啊，使用索引可以加快查询速度，其实</description>
+    </item>
+    
+    <item>
+      <title>23、【对线面试官】InnoDB引擎中的事务</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/22%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98mysql%E4%BA%8B%E5%8A%A1-%E9%94%81%E6%9C%BA%E5%88%B6-mvcc/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/22%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98mysql%E4%BA%8B%E5%8A%A1-%E9%94%81%E6%9C%BA%E5%88%B6-mvcc/</guid>
+      <description>这次我想问下，你是怎么理解InnoDB引擎中的事务的？ 在我的理解下，事务可以使「一组操作」要么全部成功，要么全部失败 事务其目的是为了「保证数</description>
+    </item>
+    
+    <item>
+      <title>23、【对线面试官】Mysql调优</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/23%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98mysql%E8%B0%83%E4%BC%98/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/23%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98mysql%E8%B0%83%E4%BC%98/</guid>
+      <description>23、【对线面试官】Mysql调优 要不你来讲讲你们对MySQL是怎么调优的？ 哇，这命题很大阿…我认为，对于开发者而言，对MySQL的调优重点</description>
+    </item>
+    
+    <item>
+      <title>24、【对线面试官】为什么需要Java内存模型</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/24%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/24%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
+      <description>24、【对线面试官】为什么需要Java内存模型 今天想跟你聊聊Java内存模型，这块你了解过吗？ 嗯，我简单说下我的理解吧。那我就从为什么要有J</description>
+    </item>
+    
+    <item>
+      <title>25、【对线面试官】java从编译到执行，发生了什么</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/25%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98java%E4%BB%8E%E7%BC%96%E8%AF%91%E5%88%B0%E6%89%A7%E8%A1%8C%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/25%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98java%E4%BB%8E%E7%BC%96%E8%AF%91%E5%88%B0%E6%89%A7%E8%A1%8C%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88/</guid>
+      <description>25、【对线面试官】java从编译到执行，发生了什么 从基础先问起吧，你是怎么理解Java是一门「跨平台」的语言，也就是「一次编译，到处运行的</description>
+    </item>
+    
+    <item>
+      <title>26、【对线面试官】双亲委派机制</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/26%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/26%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</guid>
+      <description>26、【对线面试官】双亲委派机制 接着上次的话题吧，要不你来详细讲讲双亲委派机制？ 上次提到了：class文件是通过「类加载器」装载至JVM中的</description>
+    </item>
+    
+    <item>
+      <title>27、【对线面试官】深入浅出Java内存模型</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/27%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAjava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/27%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAjava%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
+      <description>27、【对线面试官】深入浅出Java内存模型 上一次已经问过了为什么要有Java内存模型 答案是：Java为了屏蔽硬件和操作系统访问内存的各种差</description>
+    </item>
+    
+    <item>
+      <title>28、【对线面试官】JVM内存模型</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/28%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98jvm%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/28%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98jvm%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/</guid>
+      <description>28、【对线面试官】JVM内存模型 聊聊JVM的内存结构吧？ class文件会被类加载器装载至JVM中，并且JVM会负责程序「运行时」的「内存管</description>
+    </item>
+    
+    <item>
+      <title>29、【对线面试官】垃圾回收机制</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/29%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/29%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E6%9C%BA%E5%88%B6/</guid>
+      <description>29、【对线面试官】垃圾回收机制 聊聊Java的垃圾回收机制? 我们使用Java的时候，会创建很多对象，但我们未曾「手动」将这些对象进行清除,而</description>
+    </item>
+    
+    <item>
+      <title>3、【对线面试官】Java NIO</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/3%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98java-nio/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/3%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98java-nio/</guid>
+      <description>3、【对线面试官】Java NIO 这次咱们就来聊聊Java的NIO呗？你对NIO有多少了解？ 嗯，我对Java NIO还是有一定的了解的，NIO是JD</description>
+    </item>
+    
+    <item>
+      <title>30、【对线面试官】CMS垃圾回收器</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/30%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98cms%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/30%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98cms%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8/</guid>
+      <description>30、【对线面试官】CMS垃圾回收器 今天还是来聊聊CMS垃圾收集器呗？ 如果用Seria和 Parallel系列的垃圾收集器：在垃圾回收的时，用</description>
+    </item>
+    
+    <item>
+      <title>31、【对线面试官】G1垃圾收集器</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/31%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98g1%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/31%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98g1%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8/</guid>
+      <description>31、【对线面试官】G1垃圾收集器 要不这次来聊聊G1垃圾收集器？ CMS垃圾收集器的升级 G1垃圾收集器可以给你设定一个你希望Stop The Word</description>
+    </item>
+    
+    <item>
+      <title>32、【对线面试官】如何实现幂等和去重？</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/32%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E5%B9%82%E7%AD%89%E5%92%8C%E5%8E%BB%E9%87%8D/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/32%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E5%B9%82%E7%AD%89%E5%92%8C%E5%8E%BB%E9%87%8D/</guid>
+      <description>如何实现去重和幂等 去重与幂等 区别 「去重」是对请求或者消息在「一定时间内」进行去重「N次」 「幂等」则是保证请求或消息在「任意时间内」进行处理，</description>
+    </item>
+    
+    <item>
+      <title>33、【对线面试官】Redis主从架构</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/33%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E4%B8%BB%E4%BB%8E%E6%9E%B6%E6%9E%84/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/33%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E4%B8%BB%E4%BB%8E%E6%9E%B6%E6%9E%84/</guid>
+      <description>33、【对线面试官】Redis主从架构 要不你来讲讲你公司的Redis是什么架构的咯？ 我前公司的Redis架构是「分片集群」，使用的是「Pro</description>
+    </item>
+    
+    <item>
+      <title>34、【对线面试官】Redis分片集群</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/34%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E5%88%86%E7%89%87%E9%9B%86%E7%BE%A4/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/34%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98redis%E5%88%86%E7%89%87%E9%9B%86%E7%BE%A4/</guid>
+      <description>34、【对线面试官】Redis分片集群 要不接着上一次的话题呗？聊下Redis的分片集群，先聊Redis Clusters好咯？ 基础 在前面聊Re</description>
+    </item>
+    
+    <item>
+      <title>35、【对线面试官】系统需求多变时，如何设计</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/35%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%A4%9A%E5%8F%98%E6%97%B6%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/35%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E7%B3%BB%E7%BB%9F%E9%9C%80%E6%B1%82%E5%A4%9A%E5%8F%98%E6%97%B6%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1/</guid>
+      <description>35、【对线面试官】系统需求多变时，如何设计 我现在有个系统会根据请求的入参，做出不同动作。但是，这块不同的动作很有可能是会发生需求变动的，这</description>
+    </item>
+    
+    <item>
+      <title>36、【对线面试官】设计模式</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/36%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/36%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
+      <description>36、【对线面试官】设计模式 熟悉哪些常见的设计模式？ 常见的工厂模式、代理模式、模板方法模式、责任链模式、单例模式、包装设计模式、策略模式等都</description>
+    </item>
+    
+    <item>
+      <title>37、【对线面试官】JVM调优</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/37%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98jvm%E8%B0%83%E4%BC%98/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/37%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98jvm%E8%B0%83%E4%BC%98/</guid>
+      <description>JVM调优 今天要不来聊聊JVM调优相关的吧？你曾经在生产环境下有过调优JVM的经历吗？ 没有 嗯.是这样的，我们一般优化系统的思路是这样的 1.一</description>
+    </item>
+    
+    <item>
+      <title>38、【对线面试官】HTTP</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/38%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98http/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/38%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98http/</guid>
+      <description>今天要不来聊聊HTTP吧 今天要不来聊聊HTTP吧？ HTTP「协议」是客户端和服务器「交互」的一种通迅的格式 所谓的「协议」实际上就是双方约定好</description>
+    </item>
+    
+    <item>
+      <title>4、【对线面试官】Java反射 &amp; 动态代理.md</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/4%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98java%E5%8F%8D%E5%B0%84-%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/4%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98java%E5%8F%8D%E5%B0%84-%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/</guid>
+      <description>4、【对线面试官】Java反射 &amp;amp; 动态代理.md 今天要不来聊聊Java反射？你对Java反射了解多少？ 嗯，Java反射在JavaSE基础中还是</description>
+    </item>
+    
+    <item>
+      <title>5、【对线面试官】多线程基础</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/5%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/5%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80/</guid>
+      <description>5、【对线面试官】多线程基础 首先你来讲讲进程和线程的区别吧？ 进程是系统进行资源分配和调度的独立单位，每一个进程都有它自己的内存空间和系统资源</description>
+    </item>
+    
+    <item>
+      <title>6、【对线面试官】CAS</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/6%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98cas/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/6%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98cas/</guid>
+      <description>6、【对线面试官】CAS 今天我们来聊聊CAS吧？你对CAS了解多少？ CAS的全称为compare and swap，比较并交换 虽然翻译过来是「比较并</description>
+    </item>
+    
+    <item>
+      <title>7、【对线面试官】synchronized</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/7%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98synchronized/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/7%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98synchronized/</guid>
+      <description>7、【对线面试官】synchronized 今天我们来聊聊synchronized吧？ synchronized是一种互斥锁，一次只能允许一个线</description>
+    </item>
+    
+    <item>
+      <title>8、【对线面试官】AQS &amp; ReentrantLock</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/8%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98aqs-reentrantlock/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/8%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98aqs-reentrantlock/</guid>
+      <description>8、【对线面试官】AQS &amp;amp; ReentrantLock 今天我们来聊聊lock锁吧？ 你知道什么叫做公平和非公平锁吗 公平锁指的就是：在竞争环境下，先到临界区的线程比后到的</description>
+    </item>
+    
+    <item>
+      <title>9、【对线面试官】线程池</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/9%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E7%BA%BF%E7%A8%8B%E6%B1%A0/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/9%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98%E7%BA%BF%E7%A8%8B%E6%B1%A0/</guid>
+      <description>9、【对线面试官】线程池 今天来聊聊线程池呗，你对Java线程池了解多少？ 或者换个问法：为什么需要线程池？ JVM在HotSpot的线程模型下，</description>
+    </item>
+    
+    <item>
+      <title>面试官“谈谈Spring中都用到了那些设计模式”。</title>
+      <link>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/%E9%9D%A2%E8%AF%95%E5%AE%98%E8%B0%88%E8%B0%88spring%E4%B8%AD%E9%83%BD%E7%94%A8%E5%88%B0%E4%BA%86%E9%82%A3%E4%BA%9B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://www.swimminghao.top/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_03_%E5%AF%B9%E7%BA%BF%E9%9D%A2%E8%AF%95%E5%AE%98/%E9%9D%A2%E8%AF%95%E5%AE%98%E8%B0%88%E8%B0%88spring%E4%B8%AD%E9%83%BD%E7%94%A8%E5%88%B0%E4%BA%86%E9%82%A3%E4%BA%9B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
+      <description>面试官:“谈谈Spring中都用到了那些设计模式?”。 JDK 中用到了那些设计模式?Spring 中用到了那些设计模式?这两个问题，在面试中比较常见</description>
+    </item>
+    
+  </channel>
+</rss>
