@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Mar 2023 09:10:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jul 2023 09:12:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在同一台电脑上使用多个GitHub账号</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/%E5%A4%9Agit%E8%B4%A6%E5%8F%B7%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 14 Jul 2023 09:12:00 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/%E5%A4%9Agit%E8%B4%A6%E5%8F%B7%E7%AE%A1%E7%90%86/</guid>
+      <description>如何在同一台电脑上使用多个GitHub账号 我们知道，如果使用ssh key去绑定GitHub账号，那么每次从同一台电脑上push代码的时候就不</description>
+    </item>
+    
     <item>
       <title>photoshop技巧</title>
       <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/18_01_photoshop/photoshop%E6%8A%80%E5%B7%A7/</link>

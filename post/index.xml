@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Jul 2023 10:33:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jul 2023 09:12:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在同一台电脑上使用多个GitHub账号</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/%E5%A4%9Agit%E8%B4%A6%E5%8F%B7%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 14 Jul 2023 09:12:00 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/%E5%A4%9Agit%E8%B4%A6%E5%8F%B7%E7%AE%A1%E7%90%86/</guid>
+      <description>如何在同一台电脑上使用多个GitHub账号 我们知道，如果使用ssh key去绑定GitHub账号，那么每次从同一台电脑上push代码的时候就不</description>
+    </item>
+    
     <item>
       <title>EmbyServer 4.7.13.0 全端全功能免验证破解（非伪站验证）</title>
       <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/08_01_nas/nas%E6%95%99%E7%A8%8B/%E5%BD%B1%E9%9F%B3/emby%E7%A0%B4%E8%A7%A3/</link>
