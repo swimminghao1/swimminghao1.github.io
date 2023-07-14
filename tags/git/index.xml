@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on swimminghao</title>
+    <link>https://swimminghao1.github.io/tags/git/</link>
+    <description>Recent content in git on swimminghao</description>
+    <image>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git reset放弃修改&amp;放弃增加文件</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git-reset%E6%94%BE%E5%BC%83%E4%BF%AE%E6%94%B9%E6%94%BE%E5%BC%83%E5%A2%9E%E5%8A%A0%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git-reset%E6%94%BE%E5%BC%83%E4%BF%AE%E6%94%B9%E6%94%BE%E5%BC%83%E5%A2%9E%E5%8A%A0%E6%96%87%E4%BB%B6/</guid>
+      <description>git reset放弃修改&amp;amp;放弃增加文件 1. 本地修改了一堆文件(并没有使用git add到暂存区)，想放弃修改。 单个文件/文件夹： $ git checkout -- filename 所</description>
+    </item>
+    
+    <item>
+      <title>git.html</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git/</guid>
+      <description>githtml {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&#34;Lucida Console&#34;,Consolas,&#34;Courier&#34;,monospace; } html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; } body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; } iframe { margin: auto; } a.url { word-break: break-all; } a:active, a:hover { outline:</description>
+    </item>
+    
+    <item>
+      <title>github 上传大文件100MB姿势</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/github-%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100mb%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/github-%E4%B8%8A%E4%BC%A0%E5%A4%A7%E4%BA%8E100mb%E6%96%87%E4%BB%B6/</guid>
+      <description>github 上传大文件100MB姿势 具体就是安装git-lfs，先下载，然后就是一顿操作： 先在web建立一个空仓库 然后建立跟仓库名一样的文件夹，并执行</description>
+    </item>
+    
+    <item>
+      <title>git流程</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git%E6%B5%81%E7%A8%8B/</guid>
+      <description>git 流程 正常上线 git clone git checkout dev git checkout -b feature-function git add . git commit -m &amp;#39;结束功能开发&amp;#39; git checkout dev git merge feature-function git push origin dev git checkout -b release-2019-09-29 git push origin release-2019-09-29 线上发现bug 紧急上线 git checkout -b</description>
+    </item>
+    
+    <item>
+      <title>git命令</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git%E5%91%BD%E4%BB%A4/</guid>
+      <description>git指令 个人开发 一般来说，日常使用只要记住下图6个命令，就可以了。但是熟练使用，恐怕要记住60～100个命令。 workspace：工作区 I</description>
+    </item>
+    
+    <item>
+      <title>git命令作业</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git%E5%91%BD%E4%BB%A4%E4%BD%9C%E4%B8%9A/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/git%E5%91%BD%E4%BB%A4%E4%BD%9C%E4%B8%9A/</guid>
+      <description>正常上线 git clone git checkout dev git checkout -b feature-function git add . git commit -m &amp;#39;结束功能开发&amp;#39; git checkout dev git merge feature-function git push origin dev git checkout -b release-2019-09-29 git push origin release-2019-09-29 线上发现bug 紧急上线 git checkout -b hotfix-2019-09-29 origin/master git</description>
+    </item>
+    
+    <item>
+      <title>idea .gitignore(git文件忽略)</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/idea-.gitignoregit%E6%96%87%E4%BB%B6%E5%BF%BD%E7%95%A5/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/04_01_git/git/idea-.gitignoregit%E6%96%87%E4%BB%B6%E5%BF%BD%E7%95%A5/</guid>
+      <description>idea .gitignore(git文件忽略) idea使用git通常需要忽略一些临时文件，需要配置.gitignore插件 安装插件 File -&amp;gt; Settings -&amp;gt; Plugins 搜索框</description>
+    </item>
+    
+  </channel>
+</rss>

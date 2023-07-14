@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>shell on swimminghao</title>
+    <link>https://swimminghao1.github.io/tags/shell/</link>
+    <description>Recent content in shell on swimminghao</description>
+    <image>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 14 Oct 2022 15:17:10 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新建文件夹bash</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9bash/</link>
+      <pubDate>Fri, 14 Oct 2022 15:17:10 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9bash/</guid>
+      <description>#!/bin/bash for line in `cat apple.txt` # 将 cat apple.txt的输出作为字符串,for逐个读取赋值line变量 #``为反引号 #也可以使用取值符号$(cat apple.</description>
+    </item>
+    
+    <item>
+      <title>命令行的艺术</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</link>
+      <pubDate>Fri, 15 Apr 2022 15:35:00 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF/</guid>
+      <description>命令行的艺术 前言 基础 日常使用 文件及数据处理 系统调试 单行脚本 冷门但有用 仅限 OS X 系统 仅限 Windows 系统 更多资源 免责声明 熟练使用命令行是一种常常被忽视，或</description>
+    </item>
+    
+    <item>
+      <title>shell效率</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%87/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%87/</guid>
+      <description>§1效率 输入相似文件名太麻烦 用花括号括起来的字符串用逗号连接，可以自动扩展，非常有用，直接看例子: $ echo {one,two,three}file onefile twofile threefile $ echo {one,two,three}{1,2,3} one1 one2 one3 two1 two2 two3 three1 three2 three3 你看，</description>
+    </item>
+    
+    <item>
+      <title>shell效率0</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%870/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/shell%E6%95%88%E7%8E%870/</guid>
+      <description>[toc] §1效率 输入相似文件名太麻烦 用花括号括起来的字符串用逗号连接，可以自动扩展，非常有用，直接看例子: $ echo {one,two,three}file onefile twofile threefile $ echo {one,two,three}{1,2,3} one1 one2 one3 two1 two2 two3 three1 three2 three3 你看</description>
+    </item>
+    
+    <item>
+      <title>shell知识点</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/linux-shell%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/linux-shell%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
+      <description>$1易混淆点 一、标准输入和参数的区别 这个问题一定是最容易让人迷惑的，具体来说，就是搞不清什么时候用管道 符| 和文件重定向&amp;gt; ，&amp;lt; ，什</description>
+    </item>
+    
+    <item>
+      <title>报告分类bash</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%8A%A5%E5%91%8A%E5%88%86%E7%B1%BBbash/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/09_01_shell/shell%E8%84%9A%E6%9C%AC/%E6%8A%A5%E5%91%8A%E5%88%86%E7%B1%BBbash/</guid>
+      <description>报告分类bash for file in *.pdf; do mkdir -p -- &amp;#34;${file%%-*}&amp;#34; &amp;amp;&amp;amp; \ mv -- &amp;#34;$file&amp;#34; &amp;#34;${file%%-*}&amp;#34;; done</description>
+    </item>
+    
+  </channel>
+</rss>

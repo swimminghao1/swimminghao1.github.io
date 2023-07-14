@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>无人机 on swimminghao</title>
+    <link>https://swimminghao1.github.io/categories/%E6%97%A0%E4%BA%BA%E6%9C%BA/</link>
+    <description>Recent content in 无人机 on swimminghao</description>
+    <image>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/categories/%E6%97%A0%E4%BA%BA%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小型无人机系统试验规程</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/01_01_%E6%97%A0%E4%BA%BA%E6%9C%BA/%E6%97%A0%E4%BA%BA%E6%9C%BA/%E5%B0%8F%E5%9E%8B%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%B3%BB%E7%BB%9F%E8%AF%95%E9%AA%8C%E8%A7%84%E7%A8%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/01_01_%E6%97%A0%E4%BA%BA%E6%9C%BA/%E6%97%A0%E4%BA%BA%E6%9C%BA/%E5%B0%8F%E5%9E%8B%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%B3%BB%E7%BB%9F%E8%AF%95%E9%AA%8C%E8%A7%84%E7%A8%8B/</guid>
+      <description>[toc] 无人机系统组成 航电系统 任务载荷系统 地面系统 综合保障系统 试验实施 照相侦察试验 试验目的 试验条件和要求 试验内容与方法步骤 试验记录 电视及红外侦察系</description>
+    </item>
+    
+  </channel>
+</rss>

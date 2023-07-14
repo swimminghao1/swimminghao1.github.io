@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>photoshop on swimminghao</title>
+    <link>https://swimminghao1.github.io/tags/photoshop/</link>
+    <description>Recent content in photoshop on swimminghao</description>
+    <image>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 22 Mar 2023 09:10:00 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/photoshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>photoshop技巧</title>
+      <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/18_01_photoshop/photoshop%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Wed, 22 Mar 2023 09:10:00 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/18_01_photoshop/photoshop%E6%8A%80%E5%B7%A7/</guid>
+      <description>photoshop技巧 选区更换颜色 选区-&amp;gt;编辑-&amp;gt;填充-&amp;gt;颜色-&amp;gt;选择颜色-&amp;gt;确定</description>
+    </item>
+    
+  </channel>
+</rss>
