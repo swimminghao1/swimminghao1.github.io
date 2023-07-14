@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>理解 on swimminghao</title>
+    <link>https://swimminghao1.github.io/tags/%E7%90%86%E8%A7%A3/</link>
+    <description>Recent content in 理解 on swimminghao</description>
+    <image>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/%E7%90%86%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux命令which,whereis,locate,find的区别</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/linux%E5%91%BD%E4%BB%A4whichwhereislocatefind%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/linux%E5%91%BD%E4%BB%A4whichwhereislocatefind%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <description>linux命令which,whereis,locate,find的区别 which：常用于查找可直接执行的命令。只能查找可执行文件，该命令基本</description>
+    </item>
+    
+    <item>
+      <title>Mysql获取每组前N条记录</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/mysql%E8%8E%B7%E5%8F%96%E6%AF%8F%E7%BB%84%E5%89%8Dn%E6%9D%A1%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/mysql%E8%8E%B7%E5%8F%96%E6%AF%8F%E7%BB%84%E5%89%8Dn%E6%9D%A1%E8%AE%B0%E5%BD%95/</guid>
+      <description>Mysql获取每组前N条记录 Select基础知识 我们在实现select语句的时候,通用的sql格式如下: select *columns* from *tables* where *predicae1* group by *columns* having *predicae1* order by *columns* limit *start*, *offset*; 很</description>
+    </item>
+    
+    <item>
+      <title>精度问题</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98/</guid>
+      <description>Java中float和double中溢值问题和浮点数的储存问题 记录一下初学Java出现的问题。 以为之前是从Python起步的，最初了解到Ja</description>
+    </item>
+    
+  </channel>
+</rss>

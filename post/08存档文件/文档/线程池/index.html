@@ -1,0 +1,343 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>线程池 | swimminghao</title><meta name=keywords content="编程,感悟"><meta name=description content="线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读 ThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工"><meta name=author content="swimminghao"><link rel=canonical href=https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.0a5d9aa21e56d0b7d41b1d4b56af0b911caf526faf5060a8d3717579bf27cb93.css integrity="sha256-Cl2aoh5W0LfUGx1LVq8LkRyvUm+vUGCo03F1eb8ny5M=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://swimminghao1.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://swimminghao1.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://swimminghao1.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://swimminghao1.github.io/apple-touch-icon.png><link rel=mask-icon href=https://swimminghao1.github.io/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.97.0"><link rel=manifest href=/manifest.json><script type=text/javascript>function downloadJSAtOnload(){var e=document.createElement("script");e.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/umami.js></script>
+<script async src=https://swimminghao1.github.io/js/busuanzi.pure.mini.js></script>
+<link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src=https://swimminghao1.github.io/js/mermaid.min.js crossorigin=anonymous></script>
+<script>const config={startOnLoad:!0,theme:"forest",themeVariables:{lineColor:"#fafafa"},flowchart:{useMaxWidth:!1,htmlLabels:!0}};mermaid.initialize(config),window.onload=()=>{window.mermaid.init(void 0,document.querySelectorAll(".language-mermaid"))}</script><script>var _hmt=_hmt||[];(function(){var e,t=document.createElement("script");t.src="https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394",e=document.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e)})()</script><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-136094326-1","auto"),ga("send","pageview"))</script><meta property="og:title" content="线程池"><meta property="og:description" content="线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读 ThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工"><meta property="og:type" content="article"><meta property="og:url" content="https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/"><meta property="og:image" content="https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="post"><meta property="article:published_time" content="2022-02-28T19:57:47+00:00"><meta property="article:modified_time" content="2022-02-28T19:57:47+00:00"><meta property="og:site_name" content="swimminghao"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="线程池"><meta name=twitter:description content="线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读 ThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"📚文章","item":"https://swimminghao1.github.io/post/"},{"@type":"ListItem","position":2,"name":"线程池","item":"https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"线程池","name":"线程池","description":"线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读 ThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工","keywords":["编程","感悟"],"articleBody":"线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读\nThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工厂模式的Executors工具类用于快捷创建线程池，在实际开发过程中，需要使用线程池时，应当优先考虑使用Executors\n1、类继承关系\nExecutor为顶级接口，其主要目标是将任务、任务的提交与任务的执行解耦\nExecutorService接口则定义了正常的线程池应该有的功能与行为，诸如任务提交，异步执行等等\nScheduledExecutorService接口则定义了一些定时的特性\n2、Executor Executor执行提交的任务（Runnable），该接口提供了一种将任务提交与任务执行（包括执行细节：线程、定时等）解耦的途径。\n通过Executor包装的线程（Thread）对象，避免直接使用Thread对象来执行任务，可以有效将线程信息屏蔽，避免直接对线程的操作。\nExecutor本身并不强制要求执行的任务必须是异步执行\n用于执行任务的执行器，而Runnable则表示可以用于执行的任务。\n/**\n 在未来某个时刻执行给定的指令，命令可以在新的线程中、线程池或调用线程中执行 实际情况取决于Executor的实现 */ void execute(Runnable command); 3、ExecutorService 能够管理任务终止、能够产生追踪一个或多个异步任务处理进度的Future的执行器（Executor）  接口的核心定义：\n提交任务\n Future submit(Callable task);  Future submit(Runnable task, T result); Future submit(Runnable task); 第一种提交Callable task类型的任务较好理解，任务完成时会将task的结果放至Future中。\n第二种方式，Runnable task和 T result作为参数，实际上内部通过包装将入参result作为返回值与Runnable task一同包装为一个Callable，最后任务完成时将Callable结果放至Future中。因此通过这种方式，入参result，返回结果则是可能在任务中被修改的result。\nAbstractExecutorService\npublic Future submit(Runnable task) { if (task == null) throw new NullPointerException(); RunnableFuture ftask = newTaskFor(task, null);//生成一个RunnableFuture作为任务 execute(ftask); return ftask; }\n//异步任务的抽象，内部封装了实际的任务、任务状态、真正的执行线程以及等待任务完成的线程等细节 //实际上是调用FutureTask.run()的线程被阻塞，作为真正的执行线程 protected  RunnableFuture newTaskFor(Runnable runnable, T value) { return new FutureTask(runnable, value);//创建FutureTask } FutureTask\npublic FutureTask(Runnable runnable, V result) { this.callable = Executors.callable(runnable, result);//将Runnable适配为Callable this.state = NEW; // ensure visibility of callable } Tips：\nFutureTask里有很多特性（比如对等待任务完成的线程进行阻塞，任务完成后对等待线程的唤醒，防止任务被并发调用等等）都可以使用AbstractQueuedSynchronizer，但在JDK1.8中的源码却没有发现AQS的痕迹，想想这是为何？\n早期FutureTask确实是使用AQS实现，后续修改为了目前的样子（很多通过内存直接修改对象的操作，Unsafe类），核心是为了性能。这一部分可以再单独深入看看\nExecutors.RunnableAdapter\n//简单的适配，将Runnable包装为Callable static final class RunnableAdapter implements Callable { final Runnable task; final T result; RunnableAdapter(Runnable task, T result) { this.task = task; this.result = result; } public T call() { task.run(); return result; } } 第三种方式，与第二种类似，会创一个result 为 null的Runnable适配器。\n异步执行任务\n通过任务提交、invokeAny、invokeAll\n等待任一/全部任务执行完成\ninvokeAny() 一次性提交批量任务，有任一任务完成时返回该任务的处理结果，调用线程阻塞。\nprivate  T doInvokeAny(Collection tasks, boolean timed, long nanos) throws InterruptedException, ExecutionException, TimeoutException { if (tasks == null) throw new NullPointerException(); int ntasks = tasks.size(); if (ntasks == 0) throw new IllegalArgumentException(); ArrayList futures = new ArrayList(ntasks); ExecutorCompletionService ecs = new ExecutorCompletionService(this);//Wrapper或Decorator模式（组合模式？？），增强了对已完成任务的管理能力\ntry { ExecutionException ee = null; final long deadline = timed ? System.nanoTime() + nanos : 0L; Iterator it = tasks.iterator(); //1、提交第一个任务 futures.add(ecs.submit(it.next())); --ntasks; int active = 1; for (; ; ) { //2、判断任务是否完成 Future f = ecs.poll(); if (f == null) { //3、没有完成，且还有任务可以提交时，继续提交 if (ntasks  0) { --ntasks; futures.add(ecs.submit(it.next())); ++active; } else if (active == 0)//4、没有完成、没有任务可以提交、无处理中任务跳出 break; else if (timed) {//5、无任务提交，任务在处理中时，设置等待任务完成 f = ecs.poll(nanos, TimeUnit.NANOSECONDS); if (f == null) throw new TimeoutException(); nanos = deadline - System.nanoTime(); } else//6、无限期阻塞，等待完成任务的队列有完成任务可以获得 f = ecs.take(); } if (f != null) {//7、获取到完成任务 --active; try { return f.get();//8、返回完成任务的结果 } catch (ExecutionException eex) { ee = eex; } catch (RuntimeException rex) { ee = new ExecutionException(rex); } } } if (ee == null) ee = new ExecutionException(); throw ee; } finally {//9、最终取消所有任务 for (int i = 0, size = futures.size(); i  } invokeAll 如果无超时时间（较为简单）\n则遍历FutureTask，通过FutureTask.get()方法阻塞调用线程即可。\n如果存在超时时间\n遍历FutureTask，每提交一次任务检查一次是否超时。任务提交完成后，遍历未结束Future，调用Future.get(timeout)，最终返回结果，任务清理。\npublic  List invokeAll(Collection tasks, long timeout, TimeUnit unit) throws InterruptedException { if (tasks == null) throw new NullPointerException(); long nanos = unit.toNanos(timeout); ArrayList futures = new ArrayList(tasks.size()); boolean done = false; try { for (Callable t : tasks) futures.add(newTaskFor(t));\n final long deadline = System.nanoTime() + nanos; final int size = futures.size(); // Interleave time checks and calls to execute in case // executor doesn't have any/much parallelism. for (int i = 0; i f = futures.get(i); if (!f.isDone()) {//未完成future if (nanos  } 终止任务提交\nshutdown()\n已提交的任务，仍将被执行，但新的任务不再被接收。如果已经被shutdown，再次调用无影响\n终止任务执行\nList shutdownNow();\n立即尝试停止所有正在执行的任务，返回等待执行的任务，不会等待正在执行的任务终结。\n该方法会尝试尽最大努力终结执行中的任务，但无法保证正在执行的任务被终结，因此，如果有任务终结失败，该任务也许永远无法被终止。\n等待执行器进入终止状态\nboolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException;\n当调用了showdown()后，在超时间内、调用线程被中断前阻塞调用线程等待已提交任务完成。\n4、AbstractExecutorService 通过模板模式的设计模式，对ExecutorService接口中定义的某些方法，进行了通用实现。\npublic Future submit(Runnable task){…} public  Future submit(Runnable task, T result) {…} public  Future submit(Callable task) {…}\npublic  T invokeAny(Collection tasks) throws InterruptedException, ExecutionException {…} public  List invokeAll(Collection tasks) throws InterruptedException {…} submit(…)：\n主要逻辑：\n1、包装Callable、Runnable、result为RunnableFuture（实际默认实现是FutureTask，适配Runable接口）\n2、调用实现类execute()方法执行RunnableFuture\ninvokeAny(…)\ninvokeAll(…)\n上述方法的具体源码可以参见ExecutorService部分\n5、ThreadPoolExecutor 虽然AbstractExecutorService进行了一些通用实现，但诸如execute()、shutdown()等依赖实际执行路径与执行器内部状态的方法并未被实现，因此这些方法的实现逻辑将是对Executor进行区分的重要因素。\nThreadPoolExecutor直译为线程池执行器，该类通过维护内线程池，最大程度复用线程，减少线程创建、销毁与维护的开销，提高任务的执行效率。通常会作为系统的一个异步处理模块出现，最大程度降低系统对硬件资源的占用。同时也提供了友善的api，通过对线程池核心参数的设计，可以设计出不同类型的线程池，扩展线程池的可应用场景。\n基础概念 包含线程控制状态、作业队列、工人（worker）、工人集合（worker set）、工人数量（worker count）、终止条件、线程工厂、任务拒绝处理器、核心池大小、最大池大小等等\n控制状态、工人数量\n控制状态：\n标记了执行器的生命周期，记录线程池的当前状态，分为RUNNING、SHUTDOWN、STOP、TIDYING、TERMINATED，主要是为了实现shutdown()等涉及到执行器状态的方法，如果不存在控制状态，则无法实现类似：拒绝新任务的添加、终结执行器等功能。\n阶段\t说明\t状态转换 RUNING\t任务执行中，此时可以接收新的任务\tSHUTDOWN：调用shutdown() STOP：调用shutdownNow() SHUTDOWN\t任务执行中，但不再接收新的任务\tSTOP：调用shutdownNow() TIDYING：任务完成、线程池清空 STOP\t执行中的任务将被终止，且不再接收新的任务，不再继续处理任务\tTIDYING：线程池清空 TIDYING\t整理阶段，主要是回收资源与收尾工作。所有的任务已经结束，工人数量为0（线程已经完成回收），在该阶段对应线程将调用钩子函数terminated()告知子类即将要终结\tTERMINATED：terminated()执行后 TERMINATED\tterminated()完成 ThreadPoolExecutor实现中将线程池状态与工人数量整合到一个Integer内，为了保证并发安全，Integer使用AtomicInteger。控制状态一共5种，在设计中通过保证各个状态在状态空间中的有序，直接使用数值的方式判断当前状态。\n工人数量（workerCount）：\n记录当前线程池中的有效线程数量，主要用于状态变更、判断是否需要新增线程、线程数量是否已达设定值等。\n状态字段：\nprivate final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0)); private static final int COUNT_BITS = Integer.SIZE - 3;//29 private static final int CAPACITY = (1 « COUNT_BITS) - 1;//0001111111111…\n// runState is stored in the high-order bits private static final int RUNNING = -1 « COUNT_BITS;//RUNING状态下，ctl// Packing and unpacking ctl private static int runStateOf(int c) { return c \u0026 ~CAPACITY; }//取高三位的结果 private static int workerCountOf(int c) { return c \u0026 CAPACITY; }//低位即wokerCount private static int ctlOf(int rs, int wc) { return rs | wc; } 作业队列(workQueue)-BlockingQueue\n用于保存待处理任务并将任务移交给工作线程。声明类型为阻塞队列（BlockingQueue）\n不要求poll()返回null时代表队列为空（isEmpty），在决定是否进行线程池状态转移时（比如由SHUTDOWN转移为TIDYING需要判断任务队列是否为空）使用isEmpty判断队列是否为空。这种设计就可以让workQueue使用一些特殊设计的队列，比如延迟队列（DelayQueue，即便poll()为null，但延迟一段时间后可以返回non-null，即无法通过poll()是否为null判断队列是否为空），ThreadPoolExecutor通过isEmpty而非poll() == null 的方式判断队列是否为空，能够对工作队列的实现类型更加包容。\nThreadPoolExecutor并没有为BlokingQueue提供默认实现（声明时没有指定实例，且所有的构造方法没有为其提供默认实现），但使用Executors创建ThreadPoolExecutors时默认会使用LinkedBlockedQueue作为默认实现。\n关于阻塞队列（BlockingQueue）\n合适的阻塞队列，当队列空时会阻塞消费者，队列满时阻塞生产者。\n如果不适用阻塞队列，可以使用线程安全队列+标志锁实现~（但自己实现的方式可能会存在很多细节问题，有空可以把这个细节深入研究一下）\n工人（worker）\n保存了所有在线程池中的工作线程的集合\nprivate final HashSet workers = new HashSet(); 该声明并未使用线程安全的Set类，而是使用了最为简单的HashSet，因此其内部要求，任何对该集合的访问都需要获取private final ReentrantLock mainLock = new ReentrantLock();的锁权限。\nWorker类属于ThreadPoolExecutor的私有内部类，因此只有ThreadPoolExecutor能够创建该类的实例，作为内部类，该类的实例能够直接访问ThreadPoolExecutor的属性与方法。\nWoker源码：\nprivate final class Worker extends AbstractQueuedSynchronizer implements Runnable { //通过ThreadPoolExecutor内的ThreadFactory生成的执行线程 //woker持有该thread，主要是为了保证可以获取到是哪个线程是该woker的运行线程 final Thread thread; //该woker的第一个任务，可能为null Runnable firstTask; //该woker完成的任务总量 volatile long completedTasks;\n//AQS中state标志位，0：无锁状态，1：被持有锁状态，=0：可被中断状态 Worker(Runnable firstTask) { setState(-1); // 禁止中断该worker this.firstTask = firstTask; this.thread = getThreadFactory().newThread(this);//worker也是runnable，将worker作为其执行线程的target，当其执行线程start()时，JVM会调用worker.run() } //该方法表明woker是个Runnable，当其执行线程start时，会调用该方法 public void run() { runWorker(this);//将自己作为参数，运行自己 } protected boolean isHeldExclusively() { return getState() != 0; } protected boolean tryAcquire(int unused) { if (compareAndSetState(0, 1)) { setExclusiveOwnerThread(Thread.currentThread()); return true; } return false; } protected boolean tryRelease(int unused) { setExclusiveOwnerThread(null); setState(0); return true; } public void lock() { acquire(1); } public boolean tryLock() { return tryAcquire(1); } public void unlock() { release(1); } public boolean isLocked() { return isHeldExclusively(); } //仅当woker线程运行时，允许中断 void interruptIfStarted() { Thread t; //getState() = 0 通过判断state是否大于0，初始情况下state=-1 //当state = 0 \u0026\u0026 (t = thread) != null \u0026\u0026 !t.isInterrupted()) { try { t.interrupt();//中断执行线程 } catch (SecurityException ignore) { } } }  } ThreadPoolExecutor.runWoker()\nfinal void runWorker(ThreadPoolExecutor.Worker w) { //runWoker（）方法只会被Woker.run()调用，而Woker.run()只会在其执行线程start后由jvm调用，因此runWoker（）必定只会被对应Worker的执行线程调用 Thread wt = Thread.currentThread();//所以这里当前线程就是w.thread，也就是woker的执行线程 Runnable task = w.firstTask; w.firstTask = null; w.unlock();//此时woker的执行线程已经启动，允许外部进行中断，因此将woker的state置为0 boolean completedAbruptly = true; try { //getTask()重点，内部其实是从任务队列里获取任务，包含了线程阻塞、挂起、淘汰等一系列逻辑 //正常情况下就是该线程不断从任务队列里取任务 while (task != null || (task = getTask()) != null) { //这里的这个lock很有意思 //如果仅仅是执行线程执行任务的话，其实执行线程获取woker锁并无太大意义，一方面是因为该方法(runWoker(…))只会运行在执行线程中，不可能有并发情况，另一方面woker本身没有可以共享的资源（这个地方可以再考虑一下：获取的任务、本身执行的线程是否算可共享资源呢），没必要获取这个锁，但这个地方有个隐藏逻辑，就是一旦woker在执行任务，则woker必定是被其执行线程锁住的，因此通过woker锁的状态可以判断woker是否在执行任务。当外部线程想要让worker正常执行完任务，然后再停止woker时，就必须获取该woker的锁，如此就能够保证woker当前正在执行的任务被正常完成 w.lock(); //简短的代码，逻辑复杂，具体分析参见“Worker检测ThreadPoolExecutor是否Stoping及线程状态机制” if ((runStateAtLeast(ctl.get(), STOP) || (Thread.interrupted() \u0026\u0026 runStateAtLeast(ctl.get(), STOP))) \u0026\u0026 !wt.isInterrupted()) wt.interrupt(); try { beforeExecute(wt, task);//单个任务执行之前的钩子函数 Throwable thrown = null; try { task.run();//真正的执行任务 } catch (RuntimeException x) { thrown = x; throw x; } catch (Error x) { thrown = x; throw x; } catch (Throwable x) { thrown = x; throw new Error(x); } finally { afterExecute(task, thrown);//任务执行之后的钩子函数 } } finally { task = null; w.completedTasks++;//完成任务计数 w.unlock();//释放锁，表明当前worker已经完成某个任务的执行 } } completedAbruptly = false;//表明线程正常执行完任务，如果为true，则说明执行形成可能中途被中断，或是用户任务发生了异常 } finally { /* *处理将要结束的worker的收尾工作。 * 1、将当前worker从workerSet中移除 * 2、尝试将线程池过度为Terminated状态 * 3、在线程池仍然需要执行任务的状态下（RUNING、SHUTDOWN），判断是否需要添加新的worker至线程池，添加条件为：1）当前worker为突然终止；2）当前线程池的线程数量小于最小需求线程数量 * 4、走到这行代码一般有两种场景：1）无任务可做，且不会有新任务来了；2）用户任务执行期间发生了异常 */ processWorkerExit(w, completedAbruptly); } } Worker检测ThreadPoolExecutor是否Stoping及线程状态机制\n1、如果ThreadPool处于Stop、Tidying或Terminated，且当前线程未被中断，则中断当前线程；2、如果处理Runing、Shutdown状态，则清除当前中断标志位，返回之前的中断标志，如果之前是中断的，且ThreadPool状态变为了Stop、Tidying或Terminated，则再次中断执行线程；3、这段逻辑保证了：如果当前ThreadPoolExecutor处于RUNING、SHUTDOWN，则中断标志位被清除；否则，直接中断执行线程。4、进一步思考：如果不这样实现会有什么问题？\n下图为实际的判断逻辑，如果没有红框部分逻辑，则之前的清除中断标志位可能会导致在箭头处插入的ShutdownNow事件被忽略。\n处理woker结束的工作\nprivate void processWorkerExit(Worker w, boolean completedAbruptly) { if (completedAbruptly) // If abrupt, then workerCount wasn’t adjusted //正常结束不需要再去减少workerCount，原因是在getTask()的地方已经预先减过了 decrementWorkerCount();\nfinal ReentrantLock mainLock = this.mainLock; mainLock.lock(); try { completedTaskCount += w.completedTasks; workers.remove(w); } finally { mainLock.unlock(); } tryTerminate(); int c = ctl.get(); if (runStateLessThan(c, STOP)) { if (!completedAbruptly) { int min = allowCoreThreadTimeOut ? 0 : corePoolSize; if (min == 0 \u0026\u0026 ! workQueue.isEmpty()) min = 1; if (workerCountOf(c) = min) return; // replacement not needed } addWorker(null, false); }  } 线程池里的线程创建与销毁\n失效场景：1、空闲worker（当前worker数量超过corePoolSize，且线程keepAliveTime时间内未获取到任务，这也是线程池控制worker超时失效的机制）；2、用户程序异常；3、任务完全处理完成\n线程池在处理失效线程时，如果仍然需要增加线程，那么会再次通过ThreadFactory创建一个新的线程。\n假设如下场景：线程池持续接收新任务，如果新的任务正常执行，那么执行该任务的线程还会继续服役，处理后续的新任务，但是如果新的任务无法正常执行，抛出了异常，那么该线程将由于该异常而而终结，线程池会创建新的线程继续处理后续任务。所以当所有的新任务都抛出异常时，可能会导致线程池单个线程的寿命极短，频繁创建线程，事实上导致线程池失效。\n实际上呢？\n通过submit()提交给线程池的RunnableTask都被包装为FutureTask了，而FutureTask在run（）的时候，对异常进行包装，将outCome输出为Exception，也就是说正常的用户异常根本不会抛出到Worker的runWoker loop里…\n但是如果直接调用ThreadPoolExecutor.execute()方法，则不会使用FutureTask包装该Runnable了，包装的过程都是在AbstractExecutorService里完成的，直接通过execute执行任务的话，则会产生之前所述的场景，线程将频繁创建\nThreadPoolExecutor executorService = (ThreadPoolExecutor) Executors.newFixedThreadPool(5, new NamedThreadFactory()); while (true) { try { Thread.sleep(100); } catch (InterruptedException e) { e.printStackTrace(); } executorService.execute(() - {//使用Executor.execute（）执行，则会出现频繁创建线程池的情况，使用submit（）则不会，但其实execute与submit都是异步执行 throw new RuntimeException(); }); } 6、总结 线程池的核心其实是一个基于BlockingQueue的任务生产消费模型，任务的生产方为ThreadPool的使用方，通过submit与execute生产Runnable任务，任务的消费方则为ThreadPool内部的Worker。TheadPool做了很多关于线程池特性的控制：比如核心线程池大小、最大线程池大小、空闲线程的最大存活时间等等，主要就是通过Worker从BlockingQueue中获取任务的状态来控制Worker的销毁。\n源码十分精巧，部分代码写的相当简练，但包含了很深的关于状态定义、任务生产、任务消费、超时控制、同步控制、空闲线程销毁、新增线程等一系列特性的实现逻辑，每一步的动作都值得进一步思考。\n如果让自己去实现一遍这样的线程池，该如何去实现呢？\n最后附上向ThreadPoolExecutor submit任务的执行流程图~\n","wordCount":"8443","inLanguage":"zh","datePublished":"2022-02-28T19:57:47Z","dateModified":"2022-02-28T19:57:47Z","author":{"@type":"Person","name":"swimminghao"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/"},"publisher":{"@type":"Organization","name":"swimminghao","logo":{"@type":"ImageObject","url":"https://swimminghao1.github.io/favicon.ico"}}}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://swimminghao1.github.io/ accesskey=h title="🍀 swimminghao (Alt + H)">🍀 swimminghao</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://swimminghao1.github.io/categories/ title="🗂 归类"><span>🗂 归类</span></a></li><li><a href=https://swimminghao1.github.io/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://swimminghao1.github.io/archives/ title="⏱️ 时间轴"><span>⏱️ 时间轴</span></a></li><li><a href=https://swimminghao1.github.io/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://swimminghao1.github.io/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://swimminghao1.github.io/>主页</a>&nbsp;»&nbsp;<a href=https://swimminghao1.github.io/post/>📚文章</a></div><h1 class=post-title><a href=https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/>线程池</a></h1><div class=post-meta>February 28, 2022&nbsp;·&nbsp;17 分钟&nbsp;·&nbsp;8443 字&nbsp;·&nbsp;swimminghao&nbsp;|&nbsp;<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/post/08%e5%ad%98%e6%a1%a3%e6%96%87%e4%bb%b6/%e6%96%87%e6%a1%a3/%e7%ba%bf%e7%a8%8b%e6%b1%a0.md rel="noopener noreferrer" target=_blank>PR</a>
+<span>| <span class=waline-pageview-count data-path=/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/><i class="fa fa-spinner fa-spin"></i></span> Hits</span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#%e7%ba%bf%e7%a8%8b%e6%b1%a0 aria-label=线程池>线程池</a></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/>本文</a>
+首发于
+<a href=https://swimminghao1.github.io/>🍀 永浩</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/>来源</a>。</p></blockquote><h1 id=线程池>线程池<a hidden class=anchor aria-hidden=true href=#线程池>#</a></h1><p>ThreadPool源码学习
+zodiac ·2020-12-10 ·20 次阅读</p><p>ThreadPoolExecutor
+jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工厂模式的Executors工具类用于快捷创建线程池，在实际开发过程中，需要使用线程池时，应当优先考虑使用Executors</p><p>1、类继承关系</p><p>Executor为顶级接口，其主要目标是将任务、任务的提交与任务的执行解耦</p><p>ExecutorService接口则定义了正常的线程池应该有的功能与行为，诸如任务提交，异步执行等等</p><p>ScheduledExecutorService接口则定义了一些定时的特性</p><p>2、Executor
+Executor执行提交的任务（Runnable），该接口提供了一种将任务提交与任务执行（包括执行细节：线程、定时等）解耦的途径。</p><p>通过Executor包装的线程（Thread）对象，避免直接使用Thread对象来执行任务，可以有效将线程信息屏蔽，避免直接对线程的操作。</p><p>Executor本身并不强制要求执行的任务必须是异步执行</p><p>用于执行任务的执行器，而Runnable则表示可以用于执行的任务。</p><p>/**</p><ul><li>在未来某个时刻执行给定的指令，命令可以在新的线程中、线程池或调用线程中执行</li><li>实际情况取决于Executor的实现
+*/
+void execute(Runnable command);
+3、ExecutorService
+能够管理任务终止、能够产生追踪一个或多个异步任务处理进度的Future的执行器（Executor）</li></ul><p>接口的核心定义：</p><p>提交任务</p><p><t>Future<t> submit(Callable<t> task);
+<t>Future<t> submit(Runnable task, T result);
+Future submit(Runnable task);
+第一种提交Callable<t> task类型的任务较好理解，任务完成时会将task的结果放至Future中。</p><p>第二种方式，Runnable task和 T result作为参数，实际上内部通过包装将入参result作为返回值与Runnable task一同包装为一个Callable，最后任务完成时将Callable结果放至Future中。因此通过这种方式，入参result，返回结果则是可能在任务中被修改的result。</p><p>AbstractExecutorService</p><p>public Future submit(Runnable task) {
+if (task == null) throw new NullPointerException();
+RunnableFuture<void> ftask = newTaskFor(task, null);//生成一个RunnableFuture作为任务
+execute(ftask);
+return ftask;
+}</p><p>//异步任务的抽象，内部封装了实际的任务、任务状态、真正的执行线程以及等待任务完成的线程等细节
+//实际上是调用FutureTask.run()的线程被阻塞，作为真正的执行线程
+protected <t>RunnableFuture<t> newTaskFor(Runnable runnable, T value) {
+return new FutureTask<t>(runnable, value);//创建FutureTask
+}
+FutureTask</p><p>public FutureTask(Runnable runnable, V result) {
+this.callable = Executors.callable(runnable, result);//将Runnable适配为Callable
+this.state = NEW; // ensure visibility of callable
+}
+Tips：</p><p>FutureTask里有很多特性（比如对等待任务完成的线程进行阻塞，任务完成后对等待线程的唤醒，防止任务被并发调用等等）都可以使用AbstractQueuedSynchronizer，但在JDK1.8中的源码却没有发现AQS的痕迹，想想这是为何？</p><p>早期FutureTask确实是使用AQS实现，后续修改为了目前的样子（很多通过内存直接修改对象的操作，Unsafe类），核心是为了性能。这一部分可以再单独深入看看</p><p>Executors.RunnableAdapter</p><p>//简单的适配，将Runnable包装为Callable
+static final class RunnableAdapter<t> implements Callable<t> {
+final Runnable task;
+final T result;
+RunnableAdapter(Runnable task, T result) {
+this.task = task;
+this.result = result;
+}
+public T call() {
+task.run();
+return result;
+}
+}
+第三种方式，与第二种类似，会创一个result 为 null的Runnable适配器。</p><p>异步执行任务</p><p>通过任务提交、invokeAny、invokeAll</p><p>等待任一/全部任务执行完成</p><p>invokeAny()
+一次性提交批量任务，有任一任务完成时返回该任务的处理结果，调用线程阻塞。</p><p>private <t>T doInvokeAny(Collection&lt;? extends Callable<t>> tasks,
+boolean timed, long nanos)
+throws InterruptedException, ExecutionException, TimeoutException {
+if (tasks == null)
+throw new NullPointerException();
+int ntasks = tasks.size();
+if (ntasks == 0)
+throw new IllegalArgumentException();
+ArrayList&lt;Future<t>> futures = new ArrayList&lt;Future<t>>(ntasks);
+ExecutorCompletionService<t> ecs =
+new ExecutorCompletionService<t>(this);//Wrapper或Decorator模式（组合模式？？），增强了对已完成任务的管理能力</p><pre><code>try {
+    ExecutionException ee = null;
+    final long deadline = timed ? System.nanoTime() + nanos : 0L;
+    Iterator&lt;? extends Callable&lt;T&gt;&gt; it = tasks.iterator();
+    //1、提交第一个任务
+    futures.add(ecs.submit(it.next()));
+    --ntasks;
+    int active = 1;
+    for (; ; ) {
+        //2、判断任务是否完成
+        Future&lt;T&gt; f = ecs.poll();
+        if (f == null) {
+            //3、没有完成，且还有任务可以提交时，继续提交
+            if (ntasks &gt; 0) {
+                --ntasks;
+                futures.add(ecs.submit(it.next()));
+                ++active;
+            } else if (active == 0)//4、没有完成、没有任务可以提交、无处理中任务跳出
+                break;
+            else if (timed) {//5、无任务提交，任务在处理中时，设置等待任务完成
+                f = ecs.poll(nanos, TimeUnit.NANOSECONDS);
+                if (f == null)
+                    throw new TimeoutException();
+                nanos = deadline - System.nanoTime();
+            } else//6、无限期阻塞，等待完成任务的队列有完成任务可以获得
+                f = ecs.take();
+        }
+        if (f != null) {//7、获取到完成任务
+            --active;
+            try {
+                return f.get();//8、返回完成任务的结果
+            } catch (ExecutionException eex) {
+                ee = eex;
+            } catch (RuntimeException rex) {
+                ee = new ExecutionException(rex);
+            }
+        }
+    }
+ 
+    if (ee == null)
+        ee = new ExecutionException();
+    throw ee;
+} finally {//9、最终取消所有任务
+    for (int i = 0, size = futures.size(); i &lt; size; i++)
+        futures.get(i).cancel(true);//FutureTask.cancel()只有当未NEW状态才会取消
+}
+</code></pre><p>}
+invokeAll
+如果无超时时间（较为简单）</p><p>则遍历FutureTask，通过FutureTask.get()方法阻塞调用线程即可。</p><p>如果存在超时时间</p><p>遍历FutureTask，每提交一次任务检查一次是否超时。任务提交完成后，遍历未结束Future，调用Future.get(timeout)，最终返回结果，任务清理。</p><p>public <t>List&lt;Future<t>> invokeAll(Collection&lt;? extends Callable<t>> tasks,
+long timeout, TimeUnit unit)
+throws InterruptedException {
+if (tasks == null)
+throw new NullPointerException();
+long nanos = unit.toNanos(timeout);
+ArrayList&lt;Future<t>> futures = new ArrayList&lt;Future<t>>(tasks.size());
+boolean done = false;
+try {
+for (Callable<t> t : tasks)
+futures.add(newTaskFor(t));</p><pre><code>    final long deadline = System.nanoTime() + nanos;
+    final int size = futures.size();
+ 
+    // Interleave time checks and calls to execute in case
+    // executor doesn't have any/much parallelism.
+    for (int i = 0; i &lt; size; i++) {
+        execute((Runnable)futures.get(i));//执行任务，executor不保证异步执行
+        nanos = deadline - System.nanoTime();//检测超时时间
+        if (nanos &lt;= 0L)
+            return futures;//超时间内未提交的任务，不会再被执行
+    }
+ 
+    for (int i = 0; i &lt; size; i++) {
+        Future&lt;T&gt; f = futures.get(i);
+        if (!f.isDone()) {//未完成future
+            if (nanos &lt;= 0L)//阻塞前先判断一次是否超时
+                return futures;
+            try {
+                f.get(nanos, TimeUnit.NANOSECONDS);//超时时间内获取
+            } catch (CancellationException ignore) {
+            } catch (ExecutionException ignore) {
+            } catch (TimeoutException toe) {
+                return futures;
+            }
+            nanos = deadline - System.nanoTime();//更新超时时间
+        }
+    }
+    done = true;
+    return futures;
+} finally {
+    if (!done)
+        for (int i = 0, size = futures.size(); i &lt; size; i++)
+            futures.get(i).cancel(true);//最终未完成的任务，不会再被执行
+}
+</code></pre><p>}
+终止任务提交</p><p>shutdown()</p><p>已提交的任务，仍将被执行，但新的任务不再被接收。如果已经被shutdown，再次调用无影响</p><p>终止任务执行</p><p>List<runnable> shutdownNow();</p><p>立即尝试停止所有正在执行的任务，返回等待执行的任务，不会等待正在执行的任务终结。</p><p>该方法会尝试尽最大努力终结执行中的任务，但无法保证正在执行的任务被终结，因此，如果有任务终结失败，该任务也许永远无法被终止。</p><p>等待执行器进入终止状态</p><p>boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException;</p><p>当调用了showdown()后，在超时间内、调用线程被中断前阻塞调用线程等待已提交任务完成。</p><p>4、AbstractExecutorService
+通过模板模式的设计模式，对ExecutorService接口中定义的某些方法，进行了通用实现。</p><p>public Future submit(Runnable task){&mldr;}
+public <t>Future<t> submit(Runnable task, T result) {&mldr;}
+public <t>Future<t> submit(Callable<t> task) {&mldr;}</p><p>public <t>T invokeAny(Collection&lt;? extends Callable<t>> tasks) throws InterruptedException, ExecutionException {&mldr;}
+public <t>List&lt;Future<t>> invokeAll(Collection&lt;? extends Callable<t>> tasks) throws InterruptedException {&mldr;}
+submit(&mldr;)：</p><p>主要逻辑：</p><p>1、包装Callable、Runnable、result为RunnableFuture（实际默认实现是FutureTask，适配Runable接口）</p><p>2、调用实现类execute()方法执行RunnableFuture</p><p>invokeAny(&mldr;)</p><p>invokeAll(&mldr;)</p><p>上述方法的具体源码可以参见ExecutorService部分</p><p>5、ThreadPoolExecutor
+虽然AbstractExecutorService进行了一些通用实现，但诸如execute()、shutdown()等依赖实际执行路径与执行器内部状态的方法并未被实现，因此这些方法的实现逻辑将是对Executor进行区分的重要因素。</p><p>ThreadPoolExecutor直译为线程池执行器，该类通过维护内线程池，最大程度复用线程，减少线程创建、销毁与维护的开销，提高任务的执行效率。通常会作为系统的一个异步处理模块出现，最大程度降低系统对硬件资源的占用。同时也提供了友善的api，通过对线程池核心参数的设计，可以设计出不同类型的线程池，扩展线程池的可应用场景。</p><p>基础概念
+包含线程控制状态、作业队列、工人（worker）、工人集合（worker set）、工人数量（worker count）、终止条件、线程工厂、任务拒绝处理器、核心池大小、最大池大小等等</p><p>控制状态、工人数量</p><p>控制状态：</p><p>标记了执行器的生命周期，记录线程池的当前状态，分为RUNNING、SHUTDOWN、STOP、TIDYING、TERMINATED，主要是为了实现shutdown()等涉及到执行器状态的方法，如果不存在控制状态，则无法实现类似：拒绝新任务的添加、终结执行器等功能。</p><p>阶段 说明 状态转换
+RUNING 任务执行中，此时可以接收新的任务 SHUTDOWN：调用shutdown()
+STOP：调用shutdownNow()
+SHUTDOWN 任务执行中，但不再接收新的任务 STOP：调用shutdownNow()
+TIDYING：任务完成、线程池清空
+STOP 执行中的任务将被终止，且不再接收新的任务，不再继续处理任务 TIDYING：线程池清空
+TIDYING 整理阶段，主要是回收资源与收尾工作。所有的任务已经结束，工人数量为0（线程已经完成回收），在该阶段对应线程将调用钩子函数terminated()告知子类即将要终结 TERMINATED：terminated()执行后
+TERMINATED terminated()完成
+ThreadPoolExecutor实现中将线程池状态与工人数量整合到一个Integer内，为了保证并发安全，Integer使用AtomicInteger。控制状态一共5种，在设计中通过保证各个状态在状态空间中的有序，直接使用数值的方式判断当前状态。</p><p>工人数量（workerCount）：</p><p>记录当前线程池中的有效线程数量，主要用于状态变更、判断是否需要新增线程、线程数量是否已达设定值等。</p><p>状态字段：</p><p>private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
+private static final int COUNT_BITS = Integer.SIZE - 3;//29
+private static final int CAPACITY = (1 &#171; COUNT_BITS) - 1;//0001111111111&mldr;</p><p>// runState is stored in the high-order bits
+private static final int RUNNING = -1 &#171; COUNT_BITS;//RUNING状态下，ctl&lt;0
+private static final int SHUTDOWN = 0 &#171; COUNT_BITS;//SHUTDOWN状态下，当workercount=0时，ctl=0
+private static final int STOP = 1 &#171; COUNT_BITS;
+private static final int TIDYING = 2 &#171; COUNT_BITS;
+private static final int TERMINATED = 3 &#171; COUNT_BITS;</p><p>// Packing and unpacking ctl
+private static int runStateOf(int c) { return c & ~CAPACITY; }//取高三位的结果
+private static int workerCountOf(int c) { return c & CAPACITY; }//低位即wokerCount
+private static int ctlOf(int rs, int wc) { return rs | wc; }
+作业队列(workQueue)-BlockingQueue</p><p>用于保存待处理任务并将任务移交给工作线程。声明类型为阻塞队列（BlockingQueue）</p><p>不要求poll()返回null时代表队列为空（isEmpty），在决定是否进行线程池状态转移时（比如由SHUTDOWN转移为TIDYING需要判断任务队列是否为空）使用isEmpty判断队列是否为空。这种设计就可以让workQueue使用一些特殊设计的队列，比如延迟队列（DelayQueue，即便poll()为null，但延迟一段时间后可以返回non-null，即无法通过poll()是否为null判断队列是否为空），ThreadPoolExecutor通过isEmpty而非poll() == null 的方式判断队列是否为空，能够对工作队列的实现类型更加包容。</p><p>ThreadPoolExecutor并没有为BlokingQueue提供默认实现（声明时没有指定实例，且所有的构造方法没有为其提供默认实现），但使用Executors创建ThreadPoolExecutors时默认会使用LinkedBlockedQueue作为默认实现。</p><p>关于阻塞队列（BlockingQueue）</p><p>合适的阻塞队列，当队列空时会阻塞消费者，队列满时阻塞生产者。</p><p>如果不适用阻塞队列，可以使用线程安全队列+标志锁实现~（但自己实现的方式可能会存在很多细节问题，有空可以把这个细节深入研究一下）</p><p>工人（worker）</p><p>保存了所有在线程池中的工作线程的集合</p><p>private final HashSet<worker> workers = new HashSet<worker>();
+该声明并未使用线程安全的Set类，而是使用了最为简单的HashSet，因此其内部要求，任何对该集合的访问都需要获取private final ReentrantLock mainLock = new ReentrantLock();的锁权限。</p><p>Worker类属于ThreadPoolExecutor的私有内部类，因此只有ThreadPoolExecutor能够创建该类的实例，作为内部类，该类的实例能够直接访问ThreadPoolExecutor的属性与方法。</p><p>Woker源码：</p><p>private final class Worker extends AbstractQueuedSynchronizer implements Runnable {
+//通过ThreadPoolExecutor内的ThreadFactory生成的执行线程
+//woker持有该thread，主要是为了保证可以获取到是哪个线程是该woker的运行线程
+final Thread thread;
+//该woker的第一个任务，可能为null
+Runnable firstTask;
+//该woker完成的任务总量
+volatile long completedTasks;</p><pre><code>//AQS中state标志位，0：无锁状态，1：被持有锁状态，&gt;=0：可被中断状态
+Worker(Runnable firstTask) {
+    setState(-1); // 禁止中断该worker
+    this.firstTask = firstTask;
+    this.thread = getThreadFactory().newThread(this);//worker也是runnable，将worker作为其执行线程的target，当其执行线程start()时，JVM会调用worker.run()
+}
+ 
+//该方法表明woker是个Runnable，当其执行线程start时，会调用该方法
+public void run() {
+    runWorker(this);//将自己作为参数，运行自己
+}
+ 
+protected boolean isHeldExclusively() {
+    return getState() != 0;
+}
+ 
+protected boolean tryAcquire(int unused) {
+    if (compareAndSetState(0, 1)) {
+        setExclusiveOwnerThread(Thread.currentThread());
+        return true;
+    }
+    return false;
+}
+ 
+protected boolean tryRelease(int unused) {
+    setExclusiveOwnerThread(null);
+    setState(0);
+    return true;
+}
+ 
+public void lock() {
+    acquire(1);
+}
+ 
+public boolean tryLock() {
+    return tryAcquire(1);
+}
+ 
+public void unlock() {
+    release(1);
+}
+ 
+public boolean isLocked() {
+    return isHeldExclusively();
+}
+ 
+//仅当woker线程运行时，允许中断
+void interruptIfStarted() {
+    Thread t;
+    //getState() &gt;= 0 通过判断state是否大于0，初始情况下state=-1
+    //当state &lt; 0，即state = -1时，其执行线程尚未start，因此无需中断其执行线程
+    //并不要求获取了woker的锁
+    if (getState() &gt;= 0 &amp;&amp; (t = thread) != null &amp;&amp; !t.isInterrupted()) {
+        try {
+            t.interrupt();//中断执行线程
+        } catch (SecurityException ignore) {
+        }
+    }
+}
+</code></pre><p>}
+ThreadPoolExecutor.runWoker()</p><p>final void runWorker(ThreadPoolExecutor.Worker w) {
+//runWoker（）方法只会被Woker.run()调用，而Woker.run()只会在其执行线程start后由jvm调用，因此runWoker（）必定只会被对应Worker的执行线程调用
+Thread wt = Thread.currentThread();//所以这里当前线程就是w.thread，也就是woker的执行线程
+Runnable task = w.firstTask;
+w.firstTask = null;
+w.unlock();//此时woker的执行线程已经启动，允许外部进行中断，因此将woker的state置为0
+boolean completedAbruptly = true;
+try {
+//getTask()重点，内部其实是从任务队列里获取任务，包含了线程阻塞、挂起、淘汰等一系列逻辑
+//正常情况下就是该线程不断从任务队列里取任务
+while (task != null || (task = getTask()) != null) {
+//这里的这个lock很有意思
+//如果仅仅是执行线程执行任务的话，其实执行线程获取woker锁并无太大意义，一方面是因为该方法(runWoker(&mldr;))只会运行在执行线程中，不可能有并发情况，另一方面woker本身没有可以共享的资源（这个地方可以再考虑一下：获取的任务、本身执行的线程是否算可共享资源呢），没必要获取这个锁，但这个地方有个隐藏逻辑，就是一旦woker在执行任务，则woker必定是被其执行线程锁住的，因此通过woker锁的状态可以判断woker是否在执行任务。当外部线程想要让worker正常执行完任务，然后再停止woker时，就必须获取该woker的锁，如此就能够保证woker当前正在执行的任务被正常完成
+w.lock();
+//简短的代码，逻辑复杂，具体分析参见“Worker检测ThreadPoolExecutor是否Stoping及线程状态机制”
+if ((runStateAtLeast(ctl.get(), STOP) ||
+(Thread.interrupted() &&
+runStateAtLeast(ctl.get(), STOP))) &&
+!wt.isInterrupted())
+wt.interrupt();
+try {
+beforeExecute(wt, task);//单个任务执行之前的钩子函数
+Throwable thrown = null;
+try {
+task.run();//真正的执行任务
+} catch (RuntimeException x) {
+thrown = x;
+throw x;
+} catch (Error x) {
+thrown = x;
+throw x;
+} catch (Throwable x) {
+thrown = x;
+throw new Error(x);
+} finally {
+afterExecute(task, thrown);//任务执行之后的钩子函数
+}
+} finally {
+task = null;
+w.completedTasks++;//完成任务计数
+w.unlock();//释放锁，表明当前worker已经完成某个任务的执行
+}
+}
+completedAbruptly = false;//表明线程正常执行完任务，如果为true，则说明执行形成可能中途被中断，或是用户任务发生了异常
+} finally {
+/* *处理将要结束的worker的收尾工作。
+* 1、将当前worker从workerSet中移除
+* 2、尝试将线程池过度为Terminated状态
+* 3、在线程池仍然需要执行任务的状态下（RUNING、SHUTDOWN），判断是否需要添加新的worker至线程池，添加条件为：1）当前worker为突然终止；2）当前线程池的线程数量小于最小需求线程数量
+* 4、走到这行代码一般有两种场景：1）无任务可做，且不会有新任务来了；2）用户任务执行期间发生了异常
+*/
+processWorkerExit(w, completedAbruptly);
+}
+}
+Worker检测ThreadPoolExecutor是否Stoping及线程状态机制</p><p>1、如果ThreadPool处于Stop、Tidying或Terminated，且当前线程未被中断，则中断当前线程；2、如果处理Runing、Shutdown状态，则清除当前中断标志位，返回之前的中断标志，如果之前是中断的，且ThreadPool状态变为了Stop、Tidying或Terminated，则再次中断执行线程；3、这段逻辑保证了：如果当前ThreadPoolExecutor处于RUNING、SHUTDOWN，则中断标志位被清除；否则，直接中断执行线程。4、进一步思考：如果不这样实现会有什么问题？</p><p>下图为实际的判断逻辑，如果没有红框部分逻辑，则之前的清除中断标志位可能会导致在箭头处插入的ShutdownNow事件被忽略。</p><p>处理woker结束的工作</p><p>private void processWorkerExit(Worker w, boolean completedAbruptly) {
+if (completedAbruptly) // If abrupt, then workerCount wasn&rsquo;t adjusted
+//正常结束不需要再去减少workerCount，原因是在getTask()的地方已经预先减过了
+decrementWorkerCount();</p><pre><code>final ReentrantLock mainLock = this.mainLock;
+mainLock.lock();
+try {
+    completedTaskCount += w.completedTasks;
+    workers.remove(w);
+} finally {
+    mainLock.unlock();
+}
+ 
+tryTerminate();
+ 
+int c = ctl.get();
+if (runStateLessThan(c, STOP)) {
+    if (!completedAbruptly) {
+        int min = allowCoreThreadTimeOut ? 0 : corePoolSize;
+        if (min == 0 &amp;&amp; ! workQueue.isEmpty())
+            min = 1;
+        if (workerCountOf(c) &gt;= min)
+            return; // replacement not needed
+    }
+    addWorker(null, false);
+}
+</code></pre><p>}
+线程池里的线程创建与销毁</p><p>失效场景：1、空闲worker（当前worker数量超过corePoolSize，且线程keepAliveTime时间内未获取到任务，这也是线程池控制worker超时失效的机制）；2、用户程序异常；3、任务完全处理完成</p><p>线程池在处理失效线程时，如果仍然需要增加线程，那么会再次通过ThreadFactory创建一个新的线程。</p><p>假设如下场景：线程池持续接收新任务，如果新的任务正常执行，那么执行该任务的线程还会继续服役，处理后续的新任务，但是如果新的任务无法正常执行，抛出了异常，那么该线程将由于该异常而而终结，线程池会创建新的线程继续处理后续任务。所以当所有的新任务都抛出异常时，可能会导致线程池单个线程的寿命极短，频繁创建线程，事实上导致线程池失效。</p><p>实际上呢？</p><p>通过submit()提交给线程池的RunnableTask都被包装为FutureTask了，而FutureTask在run（）的时候，对异常进行包装，将outCome输出为Exception，也就是说正常的用户异常根本不会抛出到Worker的runWoker loop里…</p><p>但是如果直接调用ThreadPoolExecutor.execute()方法，则不会使用FutureTask包装该Runnable了，包装的过程都是在AbstractExecutorService里完成的，直接通过execute执行任务的话，则会产生之前所述的场景，线程将频繁创建</p><p>ThreadPoolExecutor executorService = (ThreadPoolExecutor) Executors.newFixedThreadPool(5, new NamedThreadFactory());
+while (true) {
+try {
+Thread.sleep(100);
+} catch (InterruptedException e) {
+e.printStackTrace();
+}
+executorService.execute(() -> {//使用Executor.execute（）执行，则会出现频繁创建线程池的情况，使用submit（）则不会，但其实execute与submit都是异步执行
+throw new RuntimeException();
+});
+}
+6、总结
+线程池的核心其实是一个基于BlockingQueue的任务生产消费模型，任务的生产方为ThreadPool的使用方，通过submit与execute生产Runnable任务，任务的消费方则为ThreadPool内部的Worker。TheadPool做了很多关于线程池特性的控制：比如核心线程池大小、最大线程池大小、空闲线程的最大存活时间等等，主要就是通过Worker从BlockingQueue中获取任务的状态来控制Worker的销毁。</p><p>源码十分精巧，部分代码写的相当简练，但包含了很深的关于状态定义、任务生产、任务消费、超时控制、同步控制、空闲线程销毁、新增线程等一系列特性的实现逻辑，每一步的动作都值得进一步思考。</p><p>如果让自己去实现一遍这样的线程池，该如何去实现呢？</p><p>最后附上向ThreadPoolExecutor submit任务的执行流程图~</p><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://swimminghao1.github.io/tags/%E7%BC%96%E7%A8%8B/>🏷 编程</a></li><li><a href=https://swimminghao1.github.io/tags/%E6%84%9F%E6%82%9F/>🏷 感悟</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share 线程池 on twitter" href="https://twitter.com/intent/tweet/?text=%e7%ba%bf%e7%a8%8b%e6%b1%a0&url=https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f&hashtags=%e7%bc%96%e7%a8%8b%2c%e6%84%9f%e6%82%9f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share 线程池 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f&title=%e7%ba%bf%e7%a8%8b%e6%b1%a0&summary=%e7%ba%bf%e7%a8%8b%e6%b1%a0&source=https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share 线程池 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f&title=%e7%ba%bf%e7%a8%8b%e6%b1%a0"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share 线程池 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share 线程池 on whatsapp" href="https://api.whatsapp.com/send?text=%e7%ba%bf%e7%a8%8b%e6%b1%a0%20-%20https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share 线程池 on telegram" href="https://telegram.me/share/url?text=%e7%ba%bf%e7%a8%8b%e6%b1%a0&url=https%3a%2f%2fswimminghao1.github.io%2fpost%2f08%25E5%25AD%2598%25E6%25A1%25A3%25E6%2596%2587%25E4%25BB%25B6%2f%25E6%2596%2587%25E6%25A1%25A3%2f%25E7%25BA%25BF%25E7%25A8%258B%25E6%25B1%25A0%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E7%89%9B%E5%AE%A2%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F%E6%80%BB%E7%BB%932/><span class=title>« 上一页</span><br><span>问答系统总结2</span></a>
+<a class=next href=https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/%E7%BA%BF%E7%A8%8B%E4%B8%8E%E8%BF%9B%E7%A8%8B/><span class=title>下一页 »</span><br><span>线程与进程</span></a></nav></footer></article></main><footer class=footer><span>Copyright &copy; 2023 • <a href=https://swimminghao1.github.io/>swimminghao</a></span><div><span><a href=/about/>关于</a>
+• <a href=/disclaimer/>免责声明</a>
+• <a href=/sitemap.xml target=view_window>站点地图</a>
+• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a>
+• PV <span id=busuanzi_value_site_pv><i class="fa fa-spinner fa-spin"></i></span></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(t){t.preventDefault();var e=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView({behavior:"smooth"}),e==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${e}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><meta name=”apple-mobile-web-app-capable” content="”yes”"><script>"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/service-worker.js")})</script></body></html>

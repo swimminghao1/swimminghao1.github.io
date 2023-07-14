@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2022 on swimminghao</title>
+    <link>https://swimminghao1.github.io/tags/2022/</link>
+    <description>Recent content in 2022 on swimminghao</description>
+    <image>
+      <url>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://swimminghao1.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/2022/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2020年工作总结</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/2020%E5%B9%B4%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/2020%E5%B9%B4%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/</guid>
+      <description>2020年工作总结 1.工作内容 开发、上线了60多家机构模板 完成64万多历史未走识别模板报告导入athena处理的数据清洗 完成word、ppt</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -21,6 +21,51 @@
     </item>
     
     <item>
+      <title>java数据类型</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+      <description>Java基本类型占用字节数（或 bit数） Java 的8大基本类型 既然说的是 Java 8大基本类型的占用字节数，我们先来聊聊 Java 的8大基本类型 整型 int ：整数类型 short</description>
+    </item>
+    
+    <item>
+      <title>java线程池</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/java%E7%BA%BF%E7%A8%8B%E6%B1%A0/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/java%E7%BA%BF%E7%A8%8B%E6%B1%A0/</guid>
+      <description>深入理解java线程池—ThreadPoolExecutor 几句闲扯：首先，我想说java的线程池真的是很绕，以前一直都感觉新建几个线程一直</description>
+    </item>
+    
+    <item>
+      <title>sql难点记录</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/sql%E9%9A%BE%E7%82%B9%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/sql%E9%9A%BE%E7%82%B9%E8%AE%B0%E5%BD%95/</guid>
+      <description>sql难点记录 1. The expression subject IN (&amp;lsquo;Chemistry&amp;rsquo;,&amp;lsquo;Physics&amp;rsquo;) can be used as a value - it will be 0 or 1. Show the 1984 winners and subject ordered by subject and winner name; but list Chemistry and Physics last. 这个题目没有中文，翻译的大概意思是 按照获奖的科学领域</description>
+    </item>
+    
+    <item>
+      <title>tool.html</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/tool/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/tool/</guid>
+      <description>toolhtml {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&#34;Lucida Console&#34;,Consolas,&#34;Courier&#34;,monospace; } html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; } body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; } iframe { margin: auto; } a.url { word-break: break-all; } a:active, a:hover { outline:</description>
+    </item>
+    
+    <item>
+      <title>常用工具.html</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
+      <description>toolhtml {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&#34;Lucida Console&#34;,Consolas,&#34;Courier&#34;,monospace; } html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; } body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; } iframe { margin: auto; } a.url { word-break: break-all; } a:active, a:hover { outline:</description>
+    </item>
+    
+    <item>
       <title>动态规划答疑篇</title>
       <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%AD%94%E7%96%91%E7%AF%87/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
@@ -36,6 +81,15 @@
       
       <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E8%AE%BE%E8%AE%A1%E4%B9%8B%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>动态规划设计之最长递增子序列 预计阅读时间： 9 分钟 很多读者反应，就算看了前文 动态规划详解，了解了动态规划的套路，也不会写状态转移方程，没有思路</description>
+    </item>
+    
+    <item>
+      <title>法拍房</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E5%81%8F%E9%97%A8/%E6%B3%95%E6%8B%8D%E6%88%BF/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E5%81%8F%E9%97%A8/%E6%B3%95%E6%8B%8D%E6%88%BF/</guid>
+      <description>法拍房 以前玩过法拍房。 答案是：买卖不破租赁，没辙儿。 而且存在租赁的情况法院必然会在拍卖前告知，可能你冲动之下不看仔细就瞎jb拍了。人家租赁合</description>
     </item>
     
     <item>
@@ -171,6 +225,15 @@
       
       <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/leetcode/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E6%95%B0%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BC%9A%E7%AE%97%E5%90%97/</guid>
       <description>完全二叉树的节点数，你真的会算吗？ 如果让你数一下一棵普通二叉树有多少个节点，这很简单，只要在二叉树的遍历框架上加一点代码就行了。 但是，如果给</description>
+    </item>
+    
+    <item>
+      <title>线程池</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/</guid>
+      <description>线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读 ThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工</description>
     </item>
     
     <item>

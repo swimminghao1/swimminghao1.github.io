@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>java数据类型</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/java%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+      <description>Java基本类型占用字节数（或 bit数） Java 的8大基本类型 既然说的是 Java 8大基本类型的占用字节数，我们先来聊聊 Java 的8大基本类型 整型 int ：整数类型 short</description>
+    </item>
+    
+    <item>
       <title>Java线程池实现原理及其在美团业务中的实践</title>
       <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/06_02_java%E9%9D%A2%E8%AF%95/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%BE%8E%E5%9B%A2%E4%B8%9A%E5%8A%A1%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>

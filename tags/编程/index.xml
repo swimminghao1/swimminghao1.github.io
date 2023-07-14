@@ -12,6 +12,42 @@
     <language>zh-cn</language>
     <lastBuildDate>Mon, 28 Feb 2022 19:57:47 +0000</lastBuildDate><atom:link href="https://swimminghao1.github.io/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>sql难点记录</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/sql%E9%9A%BE%E7%82%B9%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/sql%E9%9A%BE%E7%82%B9%E8%AE%B0%E5%BD%95/</guid>
+      <description>sql难点记录 1. The expression subject IN (&amp;lsquo;Chemistry&amp;rsquo;,&amp;lsquo;Physics&amp;rsquo;) can be used as a value - it will be 0 or 1. Show the 1984 winners and subject ordered by subject and winner name; but list Chemistry and Physics last. 这个题目没有中文，翻译的大概意思是 按照获奖的科学领域</description>
+    </item>
+    
+    <item>
+      <title>tool.html</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/tool/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/tool/</guid>
+      <description>toolhtml {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&#34;Lucida Console&#34;,Consolas,&#34;Courier&#34;,monospace; } html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; } body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; } iframe { margin: auto; } a.url { word-break: break-all; } a:active, a:hover { outline:</description>
+    </item>
+    
+    <item>
+      <title>常用工具.html</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
+      <description>toolhtml {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&#34;Lucida Console&#34;,Consolas,&#34;Courier&#34;,monospace; } html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; } body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; } iframe { margin: auto; } a.url { word-break: break-all; } a:active, a:hover { outline:</description>
+    </item>
+    
+    <item>
+      <title>精度问题</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98/</guid>
+      <description>Java中float和double中溢值问题和浮点数的储存问题 记录一下初学Java出现的问题。 以为之前是从Python起步的，最初了解到Ja</description>
+    </item>
+    
+    <item>
       <title>设计模式</title>
       <link>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/15_01_%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
@@ -36,6 +72,15 @@
       
       <guid>https://swimminghao1.github.io/post/02%E4%B8%AA%E4%BA%BA%E5%AD%A6%E4%B9%A0/13_01_%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C/</guid>
       <description>[toc] 开篇词 第零章、必读系列 学习算法和刷题的框架思维 动态规划解题套路框架 回溯算法解题套路框架 BFS 算法解题套路框架 我写了首诗，让你闭着眼睛也能写对二</description>
+    </item>
+    
+    <item>
+      <title>线程池</title>
+      <link>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/</link>
+      <pubDate>Mon, 28 Feb 2022 19:57:47 +0000</pubDate>
+      
+      <guid>https://swimminghao1.github.io/post/08%E5%AD%98%E6%A1%A3%E6%96%87%E4%BB%B6/%E6%96%87%E6%A1%A3/%E7%BA%BF%E7%A8%8B%E6%B1%A0/</guid>
+      <description>线程池 ThreadPool源码学习 zodiac ·2020-12-10 ·20 次阅读 ThreadPoolExecutor jdk1.5在juc包里提供了方便快捷的线程池api，并提供了基于工</description>
     </item>
     
   </channel>
